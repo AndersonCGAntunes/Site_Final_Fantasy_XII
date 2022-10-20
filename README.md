@@ -1,1 +1,1 @@
-# Site_Final_Fantasy_XII
+# Site Final Fantasy XII
