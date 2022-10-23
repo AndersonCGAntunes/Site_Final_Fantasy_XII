@@ -1806,27 +1806,10 @@ const handBomb = document.querySelector(weapons[7]);
 window.addEventListener("DOMContentLoaded", function() {
     let lista = "";
     let contador = 0;
-    let displaySpears = spears.map((item) => {
-        lista = "";
-        contador = 0;
-        Object.keys(item).forEach(key => {
-            if (item[key] !== "" && item[key] !== item.Nome) {
-                lista += `<li><span class="negrito">${propriedades[contador]}</span> ${item[key]}</li>`;
-            }
-            contador++;
-        });
+    let identificador = 0;// cria um id para cada weapon em sequencia
 
-        return `
-            <tr>
-                <td class="descricao">${item.Nome}</td>
-                <td>
-                    <ul>
-                    ${lista}
-                    </ul>
-                </td>
-            </tr>
-        `;
-        
+    let displaySpears = spears.map((item) => {
+        return apresentaListas(item);
     });
 
     let displayPoles = poles.map((item) => {
@@ -1885,9 +1868,11 @@ window.addEventListener("DOMContentLoaded", function() {
             contador++;
         });
 
+        identificador++;
+
         return `
             <tr>
-                <td class="descricao">${item.Nome}</td>
+                <td id="identificador${identificador}" class="descricao">${item.Nome}</td>
                 <td>
                     <ul>
                     ${lista}
