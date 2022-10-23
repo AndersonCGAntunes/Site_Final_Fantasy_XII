@@ -1,3 +1,654 @@
+const swords = [
+    {
+        Nome: "Mythril Sword",
+        Shop: "",
+        Treasure: "Henne Mines (Phase 2 Dig) / Cerobi Steppe (Crossfield)",
+        Drop: "",
+        Steal: "",
+        Poach: "",
+        Bazaar: "",
+        Sidequest: "",
+        Hunt: "",
+        Initial: "Reks",
+        Other: ""
+    },
+    {
+        Nome: "Broadsword",
+        Shop: "Rabanastre / Giza Plains - The Dry / Barheim Passage",
+        Treasure: "Dalmasca Westersand (Corridor of Sand) / Garamsythe Waterway (Northern Sluiceway)",
+        Drop: "Sleipnir (3%)",
+        Steal: "Cactoid (3%) / Cactite (3%)",
+        Poach: "",
+        Bazaar: "",
+        Sidequest: "",
+        Hunt: "",
+        Initial: "",
+        Other: ""
+    },
+    {
+        Nome: "Longsword",
+        Shop: "Rabanastre / Nalbina Fortress / Barheim Passage",
+        Treasure: "Garamsythe Waterway (No. 10 Channel (Flooded))",
+        Drop: "",
+        Steal: "",
+        Poach: "",
+        Bazaar: "",
+        Sidequest: "",
+        Hunt: "",
+        Initial: "",
+        Other: ""
+    },
+    {
+        Nome: "Iron Sword",
+        Shop: "Rabanastre / Bhujerba / Dreadnought Leviathan",
+        Treasure: "Dreadnought Leviathan (Starboard Section)",
+        Drop: "Razorfin (3%)",
+        Steal: "Mimic (3%) / Seeker (10%)",
+        Poach: "",
+        Bazaar: "Iron-forged Blade",
+        Sidequest: "",
+        Hunt: "",
+        Initial: "",
+        Other: ""
+    },
+    {
+        Nome: "Mythril Blade",
+        Shop: "",
+        Treasure: "Cerobi Steppe (Feddik River) / Necrohol of Nabudis (The Slumbermead)",
+        Drop: "",
+        Steal: "",
+        Poach: "",
+        Bazaar: "",
+        Sidequest: "",
+        Hunt: "",
+        Initial: "Basch",
+        Other: ""
+    },
+    {
+        Nome: "Zwill Blade",
+        Shop: "Rabanastre / Bhujerba / Dreadnought Leviathan",
+        Treasure: "Dreadnought Leviathan (Sub-control Room)",
+        Drop: "",
+        Steal: "",
+        Poach: "",
+        Bazaar: "",
+        Sidequest: "",
+        Hunt: "",
+        Initial: "",
+        Other: ""
+    },
+    {
+        Nome: "Ancient Sword",
+        Shop: "Rabanastre / Bhujerba / Dalmasca Westersand / Nam-Yensa Sandsea / Tomb of Raithwall / Balfonheim Port",
+        Treasure: "Ogir-Yensa Sandsea (Platform 1 - Refinery)",
+        Drop: "",
+        Steal: "Urutan Eater (10%)",
+        Poach: "",
+        Bazaar: "",
+        Sidequest: "",
+        Hunt: "",
+        Initial: "",
+        Other: ""
+    },
+    {
+        Nome: "Blood Sword",
+        Shop: "",
+        Treasure: "Tomb of Raithwall (Cloister of Flame) / Mosphoran Highwaste (Rays of Ashen Light) / Cerobi Steppe (Old Elanise Road)",
+        Drop: "Seeker (Henne Mines - 1%) / Seeker (Tomb of Raithwall - 1%)",
+        Steal: "",
+        Poach: "",
+        Bazaar: "",
+        Sidequest: "",
+        Hunt: "",
+        Initial: "",
+        Other: ""
+    },
+    {
+        Nome: "Lohengrin",
+        Shop: "Rabanastre / Nam-Yensa Sandsea / Tomb of Raithwall / Jahara / Balfonheim Port",
+        Treasure: "Nam-Yensa Sandsea (Simoon Bluff)",
+        Drop: "",
+        Steal: "",
+        Poach: "",
+        Bazaar: "",
+        Sidequest: "",
+        Hunt: "",
+        Initial: "",
+        Other: ""
+    },
+    {
+        Nome: "Flametongue",
+        Shop: "Jahara / Mt Bur-Omisace",
+        Treasure: "Giza Plains (Tracks of the Beast) / Zertinan Caverns (Halls of Ardent Darkness) / Ozmone Plain (The Shred) / Tchita Uplands (Uazcuff Hills)",
+        Drop: "",
+        Steal: "King Bomb in Trial Mode Stage 21 (uncommon)",
+        Poach: "Jelly (5%)",
+        Bazaar: "Burning Blade",
+        Sidequest: "",
+        Hunt: "",
+        Initial: "",
+        Other: ""
+    },
+    {
+        Nome: "Demonsbane",
+        Shop: "Eruyt Village / Mt Bur-Omisace",
+        Treasure: "Dalmasca Estersand (The Yoma) / Paramina Rift (Icebound Flow)",
+        Drop: "Yeti (1%)",
+        Steal: "",
+        Poach: "",
+        Bazaar: "",
+        Sidequest: "",
+        Hunt: "",
+        Initial: "",
+        Other: ""
+    },
+    {
+        Nome: "Icebrand",
+        Shop: "Mt Bur-Omisace",
+        Treasure: "Barheim Passage (The Zeviah Span) / Paramina Rift (Silverflow's End)",
+        Drop: "Zombie Warrior (1%)",
+        Steal: "Mateus (Trial Mode Stage 16; rare)",
+        Poach: "",
+        Bazaar: "",
+        Sidequest: "",
+        Hunt: "For Whom the Wyrm Tolls (Ring Wyrm)",
+        Initial: "",
+        Other: ""
+    },
+    {
+        Nome: "Platinum Sword",
+        Shop: "Mt Bur-Omisace / Mosphoran Highwaste",
+        Treasure: "Stilshrine of Miriam (Walk of Reason)",
+        Drop: "Mandragora (1%)",
+        Steal: "Twintania (3%)",
+        Poach: "",
+        Bazaar: "",
+        Sidequest: "",
+        Hunt: "",
+        Initial: "",
+        Other: ""
+    },
+    {
+        Nome: "Bastard Sword",
+        Shop: "Mosphoran Highwaste / Phon Coast",
+        Treasure: "Salikawood (Diverging Way) / Tchita Uplands (Garden of Life's Circle)",
+        Drop: "Skulwyrm (Zertinan Caverns - 1%)",
+        Steal: "",
+        Poach: "",
+        Bazaar: "",
+        Sidequest: "",
+        Hunt: "",
+        Initial: "",
+        Other: ""
+    },
+    {
+        Nome: "Diamond Sword",
+        Shop: "Phon Coast / Archades",
+        Treasure: "Phon Coast (Caima Hills) / Tchita Uplands (Garden of Life's Circle)",
+        Drop: "",
+        Steal: "",
+        Poach: "",
+        Bazaar: "Warped Blade",
+        Sidequest: "",
+        Hunt: "",
+        Initial: "",
+        Other: ""
+    },
+    {
+        Nome: "Runeblade",
+        Shop: "Archades / Balfonheim Port",
+        Treasure: "Tchita Uplands (Uazcuff Hills) / Necrohol of Nabudis (Cloister of the Highborn)",
+        Drop: "Babil (3%)",
+        Steal: "",
+        Poach: "",
+        Bazaar: "",
+        Sidequest: "Conversations with Ktjn",
+        Hunt: "",
+        Initial: "",
+        Other: ""
+    },
+    {
+        Nome: "Deathbringer",
+        Shop: "Balfonheim Port",
+        Treasure: "Feywood (The Edge of Reason)",
+        Drop: "",
+        Steal: "Ithuno (3%)",
+        Poach: "",
+        Bazaar: "The Leering Blade",
+        Sidequest: "Great cockatrice escape",
+        Hunt: "",
+        Initial: "",
+        Other: ""
+    },
+    {
+        Nome: "Stoneblade",
+        Shop: "",
+        Treasure: "Cerobi Steppe (The Terraced Bank)",
+        Drop: "",
+        Steal: "",
+        Poach: "",
+        Bazaar: "Darksteel Blade",
+        Sidequest: "Hunt Club",
+        Hunt: "",
+        Initial: "",
+        Other: ""
+    },
+    {
+        Nome: "Durandal",
+        Shop: "",
+        Treasure: "Cerobi Steppe (The Terraced Bank)",
+        Drop: "Velelu (1%)",
+        Steal: "",
+        Poach: "",
+        Bazaar: "",
+        Sidequest: "",
+        Hunt: "",
+        Initial: "",
+        Other: ""
+    },
+    {
+        Nome: "Great Trango",
+        Shop: "",
+        Treasure: "Pharos - Subterra (Abyssal - South)",
+        Drop: "",
+        Steal: "Zodiark (3%)",
+        Poach: "",
+        Bazaar: "",
+        Sidequest: "",
+        Hunt: "",
+        Initial: "",
+        Other: ""
+    },
+    {
+        Nome: "Karkata",
+        Shop: "",
+        Treasure: "",
+        Drop: "",
+        Steal: "",
+        Poach: "",
+        Bazaar: "Crimson Blade",
+        Sidequest: "",
+        Hunt: "",
+        Initial: "",
+        Other: ""
+    },
+    {
+        Nome: "Simha",
+        Shop: "",
+        Treasure: "",
+        Drop: "",
+        Steal: "",
+        Poach: "",
+        Bazaar: "Well-forged Blade",
+        Sidequest: "",
+        Hunt: "",
+        Initial: "",
+        Other: ""
+    },
+    {
+        Nome: "Kumbha",
+        Shop: "",
+        Treasure: "",
+        Drop: "",
+        Steal: "",
+        Poach: "",
+        Bazaar: "Master-crafted Blade",
+        Sidequest: "",
+        Hunt: "",
+        Initial: "",
+        Other: ""
+    }
+];
+
+const daggers = [
+    {
+        Nome: "Dagger",
+        Shop: "Rabanastre / Giza Plains - The Dry / Barheim Passage",
+        Treasure: "Giza Plains - The Dry (Gizas South Bank)",
+        Drop: "Seeq Thief (25%)",
+        Steal: "",
+        Poach: "",
+        Bazaar: "",
+        Sidequest: "",
+        Hunt: "",
+        Initial: "Vaan and Penelo",
+        Other: ""
+    },
+    {
+        Nome: "Mage Masher",
+        Shop: "Rabanastre / Nalbina Fortress / Barheim Passage",
+        Treasure: "Barheim Passage (Op Sector 37)",
+        Drop: "",
+        Steal: "",
+        Poach: "",
+        Bazaar: "",
+        Sidequest: "",
+        Hunt: "",
+        Initial: "",
+        Other: ""
+    },
+    {
+        Nome: "Assassin's Dagger",
+        Shop: "Rabanastre / Bhujerba / Dreadnought Leviathan",
+        Treasure: "Lhusu Mines (Site 2)",
+        Drop: "",
+        Steal: "Tiamat (Trial Mode Stage 13)",
+        Poach: "",
+        Bazaar: "",
+        Sidequest: "",
+        Hunt: "",
+        Initial: "",
+        Other: ""
+    },
+    {
+        Nome: "Chopper",
+        Shop: "Rabanastre / Nam-Yensa Sandsea / Tomb of Raithwall / Jahara / Balfonheim Port",
+        Treasure: "Nam-Yensa Sandsea (Simoon Bluff) / Ozmone Plain (The Switchback)",
+        Drop: "",
+        Steal: "",
+        Poach: "",
+        Bazaar: "",
+        Sidequest: "",
+        Hunt: "",
+        Initial: "",
+        Other: ""
+    },
+    {
+        Nome: "Main Gauche",
+        Shop: "Jahara / Mt Bur-Omisace",
+        Treasure: "Giza Plains (Tracks of the Beast) / Zertinan Caverns (Halls of Ardent Darkness) / Trial Mode Stage 39 (with Diamond Armlet)",
+        Drop: "",
+        Steal: "Earth Tyrant (Trial Mode Stage 19; rare)",
+        Poach: "Lesser Chimera (3%)",
+        Bazaar: "",
+        Sidequest: "",
+        Hunt: "",
+        Initial: "",
+        Other: ""
+    },
+    {
+        Nome: "Gladius",
+        Shop: "Mt Bur-Omisace",
+        Treasure: "Dalmasca Estersand (The Yoma) / Paramina Rift (Silverflow's End)",
+        Drop: "",
+        Steal: "Lindbur Wolf (3%)",
+        Poach: "",
+        Bazaar: "",
+        Sidequest: "",
+        Hunt: "",
+        Initial: "",
+        Other: ""
+    },
+    {
+        Nome: "Avenger",
+        Shop: "Mosphoran Highwaste / Phon Coast",
+        Treasure: "Mosphoran Highwaste (Rays of Ashen Light) / Tchita Uplands (Realm of the Elder Dream)",
+        Drop: "",
+        Steal: "",
+        Poach: "",
+        Bazaar: "",
+        Sidequest: "",
+        Hunt: "",
+        Initial: "",
+        Other: ""
+    },
+    {
+        Nome: "Orichalcum Dirk",
+        Shop: "Archades / Balfonheim Port",
+        Treasure: "Tchita Uplands (The Highlands) / Necrohol of Nabudis (Hall of the Ivory Covenant)",
+        Drop: "",
+        Steal: "Feral Croc (3%)",
+        Poach: "",
+        Bazaar: "",
+        Sidequest: "",
+        Hunt: "",
+        Initial: "",
+        Other: ""
+    },
+    {
+        Nome: "Platinum Dagger",
+        Shop: "Balfonheim Port",
+        Treasure: "Feywood (The Edge of Reason)",
+        Drop: "Shambling Corpse (1%)",
+        Steal: "",
+        Poach: "",
+        Bazaar: "",
+        Sidequest: "Great cockatrice escape",
+        Hunt: "",
+        Initial: "",
+        Other: ""
+    },
+    {
+        Nome: "Zwill Crossblade",
+        Shop: "",
+        Treasure: "Lhusu Mines (Site 11) / Cerobi Steppe (North Liavell Hills)",
+        Drop: "Vampyr (1%)",
+        Steal: "Deathclaw (3%)",
+        Poach: "",
+        Bazaar: "Double-bladed Knife",
+        Sidequest: "",
+        Hunt: "",
+        Initial: "",
+        Other: ""
+    },
+    {
+        Nome: "Shikari Nagasa",
+        Shop: "",
+        Treasure: "Cerobi Steppe (The Northsward)",
+        Drop: "",
+        Steal: "Vagrant Soul (3%)",
+        Poach: "",
+        Bazaar: "",
+        Sidequest: "",
+        Hunt: "",
+        Initial: "",
+        Other: ""
+    },
+    {
+        Nome: "Mina",
+        Shop: "",
+        Treasure: "",
+        Drop: "Larva Eater (3%)",
+        Steal: "",
+        Poach: "Overlord (Trial Mode Stage 72; 5%)",
+        Bazaar: "",
+        Sidequest: "",
+        Hunt: "",
+        Initial: "",
+        Other: ""
+    }
+];
+
+const axes = [
+    {
+        Nome: "",
+        Shop: "",
+        Treasure: "",
+        Drop: "",
+        Steal: "",
+        Poach: "",
+        Bazaar: "",
+        Sidequest: "",
+        Hunt: "",
+        Initial: "",
+        Other: ""
+    },
+    {
+        Nome: "",
+        Shop: "",
+        Treasure: "",
+        Drop: "",
+        Steal: "",
+        Poach: "",
+        Bazaar: "",
+        Sidequest: "",
+        Hunt: "",
+        Initial: "",
+        Other: ""
+    },
+    {
+        Nome: "",
+        Shop: "",
+        Treasure: "",
+        Drop: "",
+        Steal: "",
+        Poach: "",
+        Bazaar: "",
+        Sidequest: "",
+        Hunt: "",
+        Initial: "",
+        Other: ""
+    },
+    {
+        Nome: "",
+        Shop: "",
+        Treasure: "",
+        Drop: "",
+        Steal: "",
+        Poach: "",
+        Bazaar: "",
+        Sidequest: "",
+        Hunt: "",
+        Initial: "",
+        Other: ""
+    },
+    {
+        Nome: "",
+        Shop: "",
+        Treasure: "",
+        Drop: "",
+        Steal: "",
+        Poach: "",
+        Bazaar: "",
+        Sidequest: "",
+        Hunt: "",
+        Initial: "",
+        Other: ""
+    },
+    {
+        Nome: "",
+        Shop: "",
+        Treasure: "",
+        Drop: "",
+        Steal: "",
+        Poach: "",
+        Bazaar: "",
+        Sidequest: "",
+        Hunt: "",
+        Initial: "",
+        Other: ""
+    },
+    {
+        Nome: "",
+        Shop: "",
+        Treasure: "",
+        Drop: "",
+        Steal: "",
+        Poach: "",
+        Bazaar: "",
+        Sidequest: "",
+        Hunt: "",
+        Initial: "",
+        Other: ""
+    },
+];
+
+const hammers = [
+    {
+        Nome: "",
+        Shop: "",
+        Treasure: "",
+        Drop: "",
+        Steal: "",
+        Poach: "",
+        Bazaar: "",
+        Sidequest: "",
+        Hunt: "",
+        Initial: "",
+        Other: ""
+    },
+];
+
+const maces = [
+    {
+        Nome: "",
+        Shop: "",
+        Treasure: "",
+        Drop: "",
+        Steal: "",
+        Poach: "",
+        Bazaar: "",
+        Sidequest: "",
+        Hunt: "",
+        Initial: "",
+        Other: ""
+    },
+];
+
+const measures = [
+    {
+        Nome: "",
+        Shop: "",
+        Treasure: "",
+        Drop: "",
+        Steal: "",
+        Poach: "",
+        Bazaar: "",
+        Sidequest: "",
+        Hunt: "",
+        Initial: "",
+        Other: ""
+    },
+];
+
+const greatswords = [
+    {
+        Nome: "",
+        Shop: "",
+        Treasure: "",
+        Drop: "",
+        Steal: "",
+        Poach: "",
+        Bazaar: "",
+        Sidequest: "",
+        Hunt: "",
+        Initial: "",
+        Other: ""
+    },
+];
+
+const katanas = [
+    {
+        Nome: "",
+        Shop: "",
+        Treasure: "",
+        Drop: "",
+        Steal: "",
+        Poach: "",
+        Bazaar: "",
+        Sidequest: "",
+        Hunt: "",
+        Initial: "",
+        Other: ""
+    },
+];
+
+const ninjaSwords = [
+    {
+        Nome: "",
+        Shop: "",
+        Treasure: "",
+        Drop: "",
+        Steal: "",
+        Poach: "",
+        Bazaar: "",
+        Sidequest: "",
+        Hunt: "",
+        Initial: "",
+        Other: ""
+    },
+];
+
 const spears = [
     {
         Nome: "Javelin",
@@ -1141,15 +1792,16 @@ const handBombs = [
 ];
 
 let propriedades = ["Nome:", "Shop:", "Treasure:", "Drop:", "Steal:", "Poach:", "Bazaar:", "Sidequest:", "Hunt:", "Initial:", "Other:"];
+let weapons = [".spear", ".pole", ".rod", ".staff", ".bow", ".crossbow", ".gun", ".handBomb"];
 
-const spear = document.querySelector(".spear");
-const pole = document.querySelector(".pole");
-const rod = document.querySelector(".rod");
-const staff = document.querySelector(".staff");
-const bow = document.querySelector(".bow");
-const crossbow = document.querySelector(".crossbow");
-const gun = document.querySelector(".gun");
-const handBomb = document.querySelector(".handBomb");
+const spear = document.querySelector(weapons[0]);
+const pole = document.querySelector(weapons[1]);
+const rod = document.querySelector(weapons[2]);
+const staff = document.querySelector(weapons[3]);
+const bow = document.querySelector(weapons[4]);
+const crossbow = document.querySelector(weapons[5]);
+const gun = document.querySelector(weapons[6]);
+const handBomb = document.querySelector(weapons[7]);
 
 window.addEventListener("DOMContentLoaded", function() {
     let lista = "";
