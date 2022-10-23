@@ -461,10 +461,36 @@ const daggers = [
 
 const axes = [
     {
-        Nome: "",
-        Shop: "",
-        Treasure: "",
+        Nome: "Handaxe",
+        Shop: "Rabanastre / Giza Plains - The Dry / Barheim Passage",
+        Treasure: "Dalmasca Estersand (Banks of the Nebra)",
         Drop: "",
+        Steal: "Steeling (Lhusu Mines - 3%)",
+        Poach: "",
+        Bazaar: "",
+        Sidequest: "",
+        Hunt: "",
+        Initial: "",
+        Other: ""
+    },
+    {
+        Nome: "Broadaxe",
+        Shop: "Rabanastre / Bhujerba / Dreadnought Leviathan",
+        Treasure: "",
+        Drop: "Tallow (1%)",
+        Steal: "Earth Tyrant (Trial Mode Stage 19; common)",
+        Poach: "",
+        Bazaar: "",
+        Sidequest: "",
+        Hunt: "",
+        Initial: "",
+        Other: ""
+    },
+    {
+        Nome: "Slasher",
+        Shop: "Jahara / Mt Bur-Omisace",
+        Treasure: "Giza Plains - The Rains (Gizas North Bank) / Zertinan Caverns (Hourglass Basin, Halls of Ardent Darkness) / Ozmone Plain (Field of Light Winds) / Trial Mode Stage 40 (with Diamond Armlet)",
+        Drop: "Werewolf (1%)",
         Steal: "",
         Poach: "",
         Bazaar: "",
@@ -474,10 +500,36 @@ const axes = [
         Other: ""
     },
     {
-        Nome: "",
-        Shop: "",
-        Treasure: "",
-        Drop: "",
+        Nome: "Hammerhead",
+        Shop: "Mt Bur-Omisace / Mosphoran Highwaste",
+        Treasure: "Dalmasca Estersand (The Yoma) / Stilshrine of Miriam (Walk of Reason)",
+        Drop: "Gorgimera (Zertinan Caverns - 1%)",
+        Steal: "Gorgimera (Sochen Cave Palace - 3%) / Behemoth (rare) in Trial Mode Stage 37",
+        Poach: "",
+        Bazaar: "",
+        Sidequest: "",
+        Hunt: "",
+        Initial: "",
+        Other: ""
+    },
+    {
+        Nome: "Francisca",
+        Shop: "Phon Coast / Archades",
+        Treasure: "Phon Coast (Limatra Hills) / Tchita Uplands (The Highlands)",
+        Drop: "Mimeo (Barheim Passage - 3%) / Cerberus (3%)",
+        Steal: "",
+        Poach: "",
+        Bazaar: "War Axe",
+        Sidequest: "",
+        Hunt: "",
+        Initial: "",
+        Other: ""
+    },
+    {
+        Nome: "Greataxe",
+        Shop: "Balfonheim Port (After Treaty-Blade)",
+        Treasure: "Ridorana Cataract (Colosseum)",
+        Drop: "Gemhorn (3%)",
         Steal: "",
         Poach: "",
         Bazaar: "",
@@ -487,77 +539,25 @@ const axes = [
         Other: ""
     },
     {
-        Nome: "",
+        Nome: "Golden Axe",
         Shop: "",
-        Treasure: "",
+        Treasure: "Cerobi Steppe (The Terraced Bank) / Necrohol of Nabudis (Cloister of Reason)",
         Drop: "",
-        Steal: "",
+        Steal: "Reaver (Pharos - Subterra - 3%) / High Reaver (3%)",
         Poach: "",
-        Bazaar: "",
+        Bazaar: "Golden Battle Axe",
         Sidequest: "",
         Hunt: "",
         Initial: "",
         Other: ""
-    },
-    {
-        Nome: "",
-        Shop: "",
-        Treasure: "",
-        Drop: "",
-        Steal: "",
-        Poach: "",
-        Bazaar: "",
-        Sidequest: "",
-        Hunt: "",
-        Initial: "",
-        Other: ""
-    },
-    {
-        Nome: "",
-        Shop: "",
-        Treasure: "",
-        Drop: "",
-        Steal: "",
-        Poach: "",
-        Bazaar: "",
-        Sidequest: "",
-        Hunt: "",
-        Initial: "",
-        Other: ""
-    },
-    {
-        Nome: "",
-        Shop: "",
-        Treasure: "",
-        Drop: "",
-        Steal: "",
-        Poach: "",
-        Bazaar: "",
-        Sidequest: "",
-        Hunt: "",
-        Initial: "",
-        Other: ""
-    },
-    {
-        Nome: "",
-        Shop: "",
-        Treasure: "",
-        Drop: "",
-        Steal: "",
-        Poach: "",
-        Bazaar: "",
-        Sidequest: "",
-        Hunt: "",
-        Initial: "",
-        Other: ""
-    },
+    }
 ];
 
 const hammers = [
     {
-        Nome: "",
-        Shop: "",
-        Treasure: "",
+        Nome: "Iron Hammer",
+        Shop: "Rabanastre / Nalbina Fortress / Barheim Passage",
+        Treasure: "Barheim Passage (The Zeviah Subterrane)",
         Drop: "",
         Steal: "",
         Poach: "",
@@ -567,13 +567,78 @@ const hammers = [
         Initial: "",
         Other: ""
     },
+    {
+        Nome: "War Hammer",
+        Shop: "Rabanastre / Bhujerba / Dalmasca Westersand / Nam-Yensa Sandsea / Tomb of Raithwall / Balfonheim Port",
+        Treasure: "Ogir-Yensa Sandsea (East Junction) / Phon Coast (The Vaddu Strand)",
+        Drop: "",
+        Steal: "Hybrid Gator (3%)",
+        Poach: "",
+        Bazaar: "",
+        Sidequest: "",
+        Hunt: "",
+        Initial: "",
+        Other: ""
+    },
+    {
+        Nome: "Sledgehammer",
+        Shop: "Mt Bur-Omisace",
+        Treasure: "Barheim Passage (The Zeviah Span) / Paramina Rift (Silverflow's End)",
+        Drop: "Tyranorox (1%) / Humbaba (1%)",
+        Steal: "",
+        Poach: "",
+        Bazaar: "",
+        Sidequest: "",
+        Hunt: "",
+        Initial: "",
+        Other: ""
+    },
+    {
+        Nome: "Morning Star",
+        Shop: "Balfonheim Port",
+        Treasure: "Feywood (The Edge of Reason)",
+        Drop: "Ose (3%)",
+        Steal: "",
+        Poach: "",
+        Bazaar: "",
+        Sidequest: "",
+        Hunt: "",
+        Initial: "",
+        Other: ""
+    },
+    {
+        Nome: "Scorpion Tail",
+        Shop: "",
+        Treasure: "Cerobi Steppe (Crossfield)",
+        Drop: "Glaring Eye (3%)",
+        Steal: "",
+        Poach: "",
+        Bazaar: "",
+        Sidequest: "",
+        Hunt: "",
+        Initial: "",
+        Other: ""
+    },
+    {
+        Nome: "Vrscika",
+        Shop: "",
+        Treasure: "",
+        Drop: "",
+        Steal: "",
+        Poach: "",
+        Bazaar: "The Scorpion",
+        Sidequest: "",
+        Hunt: "",
+        Initial: "",
+        Other: ""
+    }
 ];
 
 const maces = [
     {
-        Nome: "",
-        Shop: "",
-        Treasure: "",
+        Nome: "Mace",
+        Shop: "Rabanastre / Nalbina Fortress / Barheim Passage",
+        Treasure: "Garamsythe Waterway (No. 10 Channel (Flooded))",
         Drop: "",
         Steal: "",
         Poach: "",
@@ -583,13 +648,156 @@ const maces = [
         Initial: "",
         Other: ""
     },
+    {
+        Nome: "Bronze Mace",
+        Shop: "Rabanastre / Bhujerba / Dreadnought Leviathan",
+        Treasure: "Lhusu Mines (Shaft Entry)",
+        Drop: "Mesmenir (3%)",
+        Steal: "",
+        Poach: "",
+        Bazaar: "",
+        Sidequest: "",
+        Hunt: "",
+        Initial: "",
+        Other: ""
+    },
+    {
+        Nome: "Bhuj",
+        Shop: "Rabanastre / Bhujerba / Dalmasca Westersand / Nam-Yensa Sandsea / Tomb of Raithwall / Balfonheim Port",
+        Treasure: "Ogir-Yensa Sandsea (Platform 1 - East Tanks, Platform 1 - South Tanks)",
+        Drop: "",
+        Steal: "",
+        Poach: "Treant (5%)",
+        Bazaar: "",
+        Sidequest: "",
+        Hunt: "",
+        Initial: "",
+        Other: ""
+    },
+    {
+        Nome: "Miter",
+        Shop: "Jahara / Mt Bur-Omisace",
+        Treasure: "Zertinan Caverns (Hourglass Basin, Halls of Ardent Darkness) / Trial Mode Stage 38 (with Diamond Armlet)",
+        Drop: "",
+        Steal: "Rain Dancer (3%)",
+        Poach: "",
+        Bazaar: "",
+        Sidequest: "",
+        Hunt: "",
+        Initial: "",
+        Other: ""
+    },
+    {
+        Nome: "Thorned Mace",
+        Shop: "Mt Bur-Omisace",
+        Treasure: "Barheim Passage (Special Op Sector 5) / Paramina Rift (Karydine Glacier)",
+        Drop: "",
+        Steal: "",
+        Poach: "Malboro King (5%)",
+        Bazaar: "",
+        Sidequest: "",
+        Hunt: "",
+        Initial: "",
+        Other: ""
+    },
+    {
+        Nome: "Chaos Mace",
+        Shop: "Mosphoran Highwaste / Phon Coast",
+        Treasure: "Salikawood (Trunkwall Road) / Tchita Uplands (The Skytrail)",
+        Drop: "Cubus (rare) in Trial Mode Stage 28",
+        Steal: "Charybterix (3%)",
+        Poach: "",
+        Bazaar: "",
+        Sidequest: "",
+        Hunt: "",
+        Initial: "",
+        Other: ""
+    },
+    {
+        Nome: "Doom Mace",
+        Shop: "Archades / Balfonheim Port",
+        Treasure: "Tchita Uplands (Oliphzak Rise) / Necrohol of Nabudis (Hall of Slumbering Might)",
+        Drop: "Gargoyle Baron (1%)",
+        Steal: "Zalera (uncommon) in Trial Mode Stage 32",
+        Poach: "",
+        Bazaar: "",
+        Sidequest: "",
+        Hunt: "",
+        Initial: "",
+        Other: ""
+    },
+    {
+        Nome: "Zeus Mace",
+        Shop: "",
+        Treasure: "Cerobi Steppe (The Terraced Bank) / Pharos - Second Ascent (Station of Suffering)",
+        Drop: "Mimeo (Pharos - First Ascent - 3%) / Minibug (1%)",
+        Steal: "",
+        Poach: "",
+        Bazaar: "",
+        Sidequest: "",
+        Hunt: "The Child Snatcher (Diabolos)",
+        Initial: "",
+        Other: ""
+    },
+    {
+        Nome: "Grand Mace",
+        Shop: "",
+        Treasure: "Cerobi Steppe (Feddik River)",
+        Drop: "",
+        Steal: "",
+        Poach: "",
+        Bazaar: "",
+        Sidequest: "",
+        Hunt: "Who's The Strongest!? (Pylraster)",
+        Initial: "",
+        Other: ""
+    },
+    {
+        Nome: "Bonebreaker",
+        Shop: "",
+        Treasure: "Cerobi Steppe (Feddik River)",
+        Drop: "Omega Mark XII (1%)",
+        Steal: "",
+        Poach: "",
+        Bazaar: "",
+        Sidequest: "",
+        Hunt: "",
+        Initial: "",
+        Other: ""
+    },
+    {
+        Nome: "Bone of Byblos",
+        Shop: "",
+        Treasure: "Lhusu Mines (Site 5) / Cerobi Steppe (The Northsward)",
+        Drop: "",
+        Steal: "Yiazmat (3%)",
+        Poach: "",
+        Bazaar: "",
+        Sidequest: "",
+        Hunt: "",
+        Initial: "",
+        Other: ""
+    }
 ];
 
 const measures = [
     {
-        Nome: "",
+        Nome: "Gilt Measure",
         Shop: "",
-        Treasure: "",
+        Treasure: "Garamsythe Waterway (No. 11 Channel (Drained)) / Cerobi Steppe (Old Elanise Road)",
+        Drop: "Gargoyle (3%)",
+        Steal: "",
+        Poach: "",
+        Bazaar: "",
+        Sidequest: "",
+        Hunt: "",
+        Initial: "",
+        Other: ""
+    },
+    {
+        Nome: "Arc Scale",
+        Shop: "",
+        Treasure: "Barheim Passage (Special Op Sector 5) / Cerobi Steppe (South Liavell Hills)",
         Drop: "",
         Steal: "",
         Poach: "",
@@ -599,13 +807,130 @@ const measures = [
         Initial: "",
         Other: ""
     },
+    {
+        Nome: "Multiscale",
+        Shop: "",
+        Treasure: "Lhusu Mines (Site 3) / Cerobi Steppe (South Liavell Hills)",
+        Drop: "",
+        Steal: "Bagoly (Phon Coast - 3%) / Apsara (rare) in Trial Mode Stage 31",
+        Poach: "",
+        Bazaar: "",
+        Sidequest: "",
+        Hunt: "",
+        Initial: "",
+        Other: ""
+    },
+    {
+        Nome: "Cross Scale",
+        Shop: "",
+        Treasure: "Cerobi Steppe (South Liavell Hills) / Nabreus Deadlands (Field of the Fallen Lord)",
+        Drop: "",
+        Steal: "Alraune King (Feywood - 3%)",
+        Poach: "",
+        Bazaar: "",
+        Sidequest: "",
+        Hunt: "",
+        Initial: "",
+        Other: ""
+    },
+    {
+        Nome: "Caliper",
+        Shop: "",
+        Treasure: "Cerobi Steppe (North Liavell Hills) / Great Crystal (Sirhru Phullam Praa)",
+        Drop: "",
+        Steal: "Reaper (3%)",
+        Poach: "",
+        Bazaar: "",
+        Sidequest: "",
+        Hunt: "Rodeo to the Death (Braegh)",
+        Initial: "",
+        Other: ""
+    },
+    {
+        Nome: "Euclid's Sextant",
+        Shop: "",
+        Treasure: "Cerobi Steppe (Crossfield)",
+        Drop: "",
+        Steal: "",
+        Poach: "",
+        Bazaar: "",
+        Sidequest: "",
+        Hunt: "A Wild Stench (Wild Malboro)",
+        Initial: "",
+        Other: ""
+    }
 ];
 
 const greatswords = [
     {
-        Nome: "",
+        Nome: "Claymore",
+        Shop: "",
+        Treasure: "Draklor Laboratory (67th Floor - Room 6711 West) / Cerobi Steppe (South Liavell Hills, Feddik River)",
+        Drop: "",
+        Steal: "",
+        Poach: "Spee (5%)",
+        Bazaar: "",
+        Sidequest: "",
+        Hunt: "",
+        Initial: "",
+        Other: ""
+    },
+    {
+        Nome: "Defender",
+        Shop: "Balfonheim Port",
+        Treasure: "Cerobi Steppe (Old Elanise Road) / Feywood (The Edge of Reason)",
+        Drop: "Leynir (1%)",
+        Steal: "Orthros (rare) in Trial Mode Stage 41",
+        Poach: "",
+        Bazaar: "",
+        Sidequest: "Great cockatrice escape",
+        Hunt: "",
+        Initial: "",
+        Other: ""
+    },
+    {
+        Nome: "Save the Queen",
+        Shop: "Balfonheim Port (After Treaty-Blade)",
+        Treasure: "Ridorana Cataract (Colosseum)",
+        Drop: "",
+        Steal: "",
+        Poach: "",
+        Bazaar: "Attenuated Greatsword",
+        Sidequest: "",
+        Hunt: "The Creature Collector (Goliath)",
+        Initial: "",
+        Other: ""
+    },
+    {
+        Nome: "Ultima Blade",
+        Shop: "",
+        Treasure: "Cerobi Steppe (Crossfield) / Pharos - Third Ascent (Spire Ravel - 2nd Flight)",
+        Drop: "",
+        Steal: "",
+        Poach: "",
+        Bazaar: "Ultimate Blade",
+        Sidequest: "Hunt Club",
+        Hunt: "",
+        Initial: "",
+        Other: ""
+    },
+    {
+        Nome: "Ragnarok",
         Shop: "",
         Treasure: "",
+        Drop: "",
+        Steal: "",
+        Poach: "",
+        Bazaar: "",
+        Sidequest: "",
+        Hunt: "Fishy Dreams (Ixion)",
+        Initial: "",
+        Other: ""
+    },
+    {
+        Nome: "Excalibur",
+        Shop: "",
+        Treasure: "Great Crystal (Crystal Peak)",
         Drop: "",
         Steal: "",
         Poach: "",
@@ -615,13 +940,91 @@ const greatswords = [
         Initial: "",
         Other: ""
     },
+    {
+        Nome: "Tournesol",
+        Shop: "",
+        Treasure: "",
+        Drop: "",
+        Steal: "",
+        Poach: "",
+        Bazaar: "The Sunflower",
+        Sidequest: "",
+        Hunt: "",
+        Initial: "",
+        Other: ""
+    },
+    {
+        Nome: "Wyrmhero Blade",
+        Shop: "",
+        Treasure: "",
+        Drop: "",
+        Steal: "",
+        Poach: "",
+        Bazaar: "Dragon Crest",
+        Sidequest: "",
+        Hunt: "",
+        Initial: "",
+        Other: ""
+    },
+    {
+        Nome: "Excalipur",
+        Shop: "",
+        Treasure: "",
+        Drop: "",
+        Steal: "",
+        Poach: "",
+        Bazaar: "",
+        Sidequest: "",
+        Hunt: "Battle on the Big Bridge (Gilgamesh and Enkidu)",
+        Initial: "",
+        Other: ""
+    },
+    {
+        Nome: "Treaty-Blade",
+        Shop: "",
+        Treasure: "",
+        Drop: "",
+        Steal: "",
+        Poach: "",
+        Bazaar: "",
+        Sidequest: "",
+        Hunt: "",
+        Initial: "",
+        Other: "After plot events in Giruvegan"
+    },
+    {
+        Nome: "Sword of Kings",
+        Shop: "",
+        Treasure: "",
+        Drop: "",
+        Steal: "Belias (Trial Mode Stage 10; common)",
+        Poach: "",
+        Bazaar: "",
+        Sidequest: "",
+        Hunt: "",
+        Initial: "",
+        Other: "After plot events in Stilshrine of Miriam"
+    }
 ];
 
 const katanas = [
     {
-        Nome: "",
-        Shop: "",
-        Treasure: "",
+        Nome: "Kotetsu",
+        Shop: "Rabanastre / Giza Plains - The Dry / Barheim Passage",
+        Treasure: "Garamsythe Waterway (No. 11 Channel (Flooded))",
+        Drop: "",
+        Steal: "Steeling (Barheim Passage - 3%)",
+        Poach: "",
+        Bazaar: "",
+        Sidequest: "",
+        Hunt: "",
+        Initial: "",
+        Other: ""
+    },
+    {
+        Nome: "Osafune",
+        Shop: "Rabanastre / Bhujerba / Dreadnought Leviathan",
+        Treasure: "Lhusu Mines (Shaft Entry)",
         Drop: "",
         Steal: "",
         Poach: "",
@@ -631,14 +1034,131 @@ const katanas = [
         Initial: "",
         Other: ""
     },
+    {
+        Nome: "Kogarasumaru",
+        Shop: "Rabanastre / Bhujerba / Dalmasca Westersand / Nam-Yensa Sandsea / Tomb of Raithwall / Balfonheim Port",
+        Treasure: "Ogir-Yensa Sandsea (East Junction, Platform 1 - South Tanks)",
+        Drop: "Wu (1%)",
+        Steal: "",
+        Poach: "",
+        Bazaar: "",
+        Sidequest: "",
+        Hunt: "",
+        Initial: "",
+        Other: ""
+    },
+    {
+        Nome: "Magoroku",
+        Shop: "Jahara / Mt Bur-Omisace",
+        Treasure: "Giza Plains (Tracks of the Beast) / Zertinan Caverns (Halls of Ardent Darkness)",
+        Drop: "Urutan Exile (3%)",
+        Steal: "",
+        Poach: "",
+        Bazaar: "",
+        Sidequest: "",
+        Hunt: "",
+        Initial: "",
+        Other: ""
+    },
+    {
+        Nome: "Murasame",
+        Shop: "Mt Bur-Omisace",
+        Treasure: "Barheim Passage (West Annex) / Paramina Rift (Karydine Glacier)",
+        Drop: "",
+        Steal: "",
+        Poach: "Pyrolisk (5%)",
+        Bazaar: "",
+        Sidequest: "",
+        Hunt: "",
+        Initial: "",
+        Other: ""
+    },
+    {
+        Nome: "Kiku-ichimonji",
+        Shop: "Mosphoran Highwaste / Phon Coast",
+        Treasure: "Stilshrine of Miriam (Walk of Reason) / Mosphoran Highwaste (Summit Path) / Tchita Uplands (Garden of Life's Circle)",
+        Drop: "Scythe Mantis (1%)",
+        Steal: "",
+        Poach: "",
+        Bazaar: "",
+        Sidequest: "Hunt Club",
+        Hunt: "",
+        Initial: "",
+        Other: ""
+    },
+    {
+        Nome: "Yakei",
+        Shop: "Archades / Balfonheim Port",
+        Treasure: "Tchita Uplands (The Lost Way) / Necrohol of Nabudis (Cloister of Distant Song)",
+        Drop: "Baknamy (Unarmed, Dagger, and Gun) (Nabreus Deadlands - 1%)",
+        Steal: "",
+        Poach: "",
+        Bazaar: "",
+        Sidequest: "",
+        Hunt: "",
+        Initial: "",
+        Other: ""
+    },
+    {
+        Nome: "Ame-no-Murakumo",
+        Shop: "Balfonheim Port (After Treaty-Blade)",
+        Treasure: "Ridorana Cataract (Colosseum)",
+        Drop: "",
+        Steal: "Etherian (3%)",
+        Poach: "",
+        Bazaar: "Samurai's Katana",
+        Sidequest: "Hunt Club",
+        Hunt: "",
+        Initial: "",
+        Other: ""
+    },
+    {
+        Nome: "Muramasa",
+        Shop: "",
+        Treasure: "Pharos - Second Ascent (The Bounds of Truth) / Cerobi Steppe (The Terraced Bank)",
+        Drop: "Crypt Bunny (3%)",
+        Steal: "Avenger (3%)",
+        Poach: "",
+        Bazaar: "",
+        Sidequest: "",
+        Hunt: "",
+        Initial: "",
+        Other: ""
+    },
+    {
+        Nome: "Masamune",
+        Shop: "",
+        Treasure: "Lhusu Mines (Site 7)",
+        Drop: "",
+        Steal: "",
+        Poach: "",
+        Bazaar: "",
+        Sidequest: "Hunt Club",
+        Hunt: "",
+        Initial: "",
+        Other: ""
+    }
 ];
 
 const ninjaSwords = [
     {
-        Nome: "",
+        Nome: "Ashura",
         Shop: "",
-        Treasure: "",
+        Treasure: "Stilshrine of Miriam (Walk of Reason) / Cerobi Steppe (South Liavell Hills)",
         Drop: "",
+        Steal: "",
+        Poach: "Aeros (5%)",
+        Bazaar: "",
+        Sidequest: "",
+        Hunt: "",
+        Initial: "",
+        Other: ""
+    },
+    {
+        Nome: "Sakura-saezuri",
+        Shop: "",
+        Treasure: "Sochen Cave Palace (Falls of Time) / Cerobi Steppe (South Liavell Hills)",
+        Drop: "Midgardsormr (3%)",
         Steal: "",
         Poach: "",
         Bazaar: "",
@@ -647,6 +1167,84 @@ const ninjaSwords = [
         Initial: "",
         Other: ""
     },
+    {
+        Nome: "Kagenui",
+        Shop: "",
+        Treasure: "Barheim Passage (The Zeviah Span) / Cerobi Steppe (North Liavell Hills)",
+        Drop: "Striker (1%)",
+        Steal: "",
+        Poach: "",
+        Bazaar: "Jag-tooth Ninja Sword",
+        Sidequest: "",
+        Hunt: "",
+        Initial: "",
+        Other: ""
+    },
+    {
+        Nome: "Koga Blade",
+        Shop: "",
+        Treasure: "Lhusu Mines (Site 3) / Cerobi Steppe (Feddik River)",
+        Drop: "Ash Wyrm (3%)",
+        Steal: "",
+        Poach: "",
+        Bazaar: "",
+        Sidequest: "Great cockatrice escape",
+        Hunt: "",
+        Initial: "",
+        Other: ""
+    },
+    {
+        Nome: "Iga Blade",
+        Shop: "",
+        Treasure: "Lhusu Mines (Site 9) / Cerobi Steppe (The Terraced Bank)",
+        Drop: "Bogey (1%)",
+        Steal: "",
+        Poach: "",
+        Bazaar: "",
+        Sidequest: "",
+        Hunt: "",
+        Initial: "",
+        Other: ""
+    },
+    {
+        Nome: "Orochi",
+        Shop: "",
+        Treasure: "Lhusu Mines (Site 11) / Cerobi Steppe (The Northsward)",
+        Drop: "",
+        Steal: "",
+        Poach: "",
+        Bazaar: "",
+        Sidequest: "Hunt Club",
+        Hunt: "",
+        Initial: "",
+        Other: ""
+    },
+    {
+        Nome: "Yagyu Darkblade",
+        Shop: "",
+        Treasure: "Cerobi Steppe (Crossfield) / Great Crystal (Sirhru Jilaam Pratii'vaa)",
+        Drop: "Bombshell (3%)",
+        Steal: "",
+        Poach: "",
+        Bazaar: "",
+        Sidequest: "",
+        Hunt: "",
+        Initial: "",
+        Other: ""
+    },
+    {
+        Nome: "Mesa",
+        Shop: "",
+        Treasure: "",
+        Drop: "",
+        Steal: "",
+        Poach: "",
+        Bazaar: "Serpent Blade",
+        Sidequest: "",
+        Hunt: "",
+        Initial: "",
+        Other: ""
+    }
 ];
 
 const spears = [
@@ -1792,21 +2390,66 @@ const handBombs = [
 ];
 
 let propriedades = ["Nome:", "Shop:", "Treasure:", "Drop:", "Steal:", "Poach:", "Bazaar:", "Sidequest:", "Hunt:", "Initial:", "Other:"];
-let weapons = [".spear", ".pole", ".rod", ".staff", ".bow", ".crossbow", ".gun", ".handBomb"];
+let weapons = [".sword", ".dagger", ".axe", ".hammer", ".mace", ".measure", ".greatsword", ".katana", ".ninjaSword", ".spear", ".pole", ".rod", ".staff", ".bow", ".crossbow", ".gun", ".handBomb"];
 
-const spear = document.querySelector(weapons[0]);
-const pole = document.querySelector(weapons[1]);
-const rod = document.querySelector(weapons[2]);
-const staff = document.querySelector(weapons[3]);
-const bow = document.querySelector(weapons[4]);
-const crossbow = document.querySelector(weapons[5]);
-const gun = document.querySelector(weapons[6]);
-const handBomb = document.querySelector(weapons[7]);
+const sword = document.querySelector(weapons[0]);
+const dagger = document.querySelector(weapons[1]);
+const axe = document.querySelector(weapons[2]);
+const hammer = document.querySelector(weapons[3]);
+const mace = document.querySelector(weapons[4]);
+const measure = document.querySelector(weapons[5]);
+const greatsword = document.querySelector(weapons[6]);
+const katana = document.querySelector(weapons[7]);
+const ninjaSword = document.querySelector(weapons[8]);
+const spear = document.querySelector(weapons[9]);
+const pole = document.querySelector(weapons[10]);
+const rod = document.querySelector(weapons[11]);
+const staff = document.querySelector(weapons[12]);
+const bow = document.querySelector(weapons[13]);
+const crossbow = document.querySelector(weapons[14]);
+const gun = document.querySelector(weapons[15]);
+const handBomb = document.querySelector(weapons[16]);
 
 window.addEventListener("DOMContentLoaded", function() {
     let lista = "";
     let contador = 0;
     let identificador = 0;// cria um id para cada weapon em sequencia
+
+    let displaySwords = swords.map((item) => {
+        return apresentaListas(item);
+    });
+
+    let displayDaggers = daggers.map((item) => {
+        return apresentaListas(item);
+    });
+
+    let displayAxes = axes.map((item) => {
+        return apresentaListas(item);
+    });
+
+    let displayHammers = hammers.map((item) => {
+        return apresentaListas(item);
+    });
+
+    let displayMaces = maces.map((item) => {
+        return apresentaListas(item);
+    });
+
+    let displayMeasures = measures.map((item) => {
+        return apresentaListas(item);
+    });
+
+    let displayGreatswords = greatswords.map((item) => {
+        return apresentaListas(item);
+    });
+
+    let displayKatanas = katanas.map((item) => {
+        return apresentaListas(item);
+    });
+
+    let displayNinjaSwords = ninjaSwords.map((item) => {
+        return apresentaListas(item);
+    });
 
     let displaySpears = spears.map((item) => {
         return apresentaListas(item);
@@ -1840,6 +2483,15 @@ window.addEventListener("DOMContentLoaded", function() {
         return apresentaListas(item);
     });
 
+    displaySwords = displaySwords.join("");
+    displayDaggers = displayDaggers.join("");
+    displayAxes = displayAxes.join("");
+    displayHammers = displayHammers.join("");
+    displayMaces = displayMaces.join("");
+    displayMeasures = displayMeasures.join("");
+    displayGreatswords = displayGreatswords.join("");
+    displayKatanas = displayKatanas.join("");
+    displayNinjaSwords = displayNinjaSwords.join("");
     displaySpears = displaySpears.join("");
     displayPoles = displayPoles.join("");
     displayRods = displayRods.join("");
@@ -1849,6 +2501,15 @@ window.addEventListener("DOMContentLoaded", function() {
     displayGuns = displayGuns.join("");
     displayHandBombs = displayHandBombs.join("");
 
+    sword.innerHTML = displaySwords;
+    dagger.innerHTML = displayDaggers;
+    axe.innerHTML = displayAxes;
+    hammer.innerHTML = displayHammers;
+    mace.innerHTML = displayMaces;
+    measure.innerHTML = displayMeasures;
+    greatsword.innerHTML = displayGreatswords;
+    katana.innerHTML = displayKatanas;
+    ninjaSword.innerHTML = displayNinjaSwords;
     spear.innerHTML = displaySpears;
     pole.innerHTML = displayPoles;
     rod.innerHTML = displayRods;
