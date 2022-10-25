@@ -6,6 +6,9 @@ main {
 a {
     text-decoration: none;
     color: rgb(56, 161, 211);
+    border-radius: 5px;
+    padding: 3px;
+    transition: 0.3s;
 }
 
 h1, h2, h3, h4 {
@@ -24,6 +27,12 @@ p, .descricao, td, th, .legenda {
 .descricao {
     width: 120px;
     color: rgb(56, 161, 211);
+}
+
+.nomeDasWeapons {
+    width: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 20px;
 }
 
 img {
@@ -53,6 +62,11 @@ td, th {
 
 a:visited, .legenda {
     color: rgb(56, 161, 211);
+}
+
+a:hover {
+    background-color: rgb(56, 161, 211);
+    color: white;
 }
 
 fieldset {
