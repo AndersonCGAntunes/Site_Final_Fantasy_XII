@@ -130,19 +130,19 @@ window.addEventListener("DOMContentLoaded", function() {
 
         return `
         <li class="nomeDasWeapons">
-            <a href="weapons.html#identificador${identificador}">${item.Nome}</a><span class="marcador">Não adquirido</span>
+            <a href="weapons.html#identificador${identificador}">${item.Nome}</a><span class="marcador"><input type="checkbox" class="caixa">Obtido</span>
         </li>
         <hr>
         `;
     }
+    
+    let texto = document.querySelectorAll('.marcador');
+
+    texto.forEach(element => {
+        element.addEventListener("click", () => {
+            element.style.color = "royalblue";
+            element.innerHTML = `<input type="checkbox" checked class="caixa">Obtido`;
+        });
+    });
 
 });
-    
-const marcar = document.getElementsByClassName("marcador");
-
-marcar.addEventListener("click", minhaFuncao);
-
-
-function minhaFuncao() {
-    document.getElementsByClassName("marcador").innerHTML = "Novo texto";
-}
