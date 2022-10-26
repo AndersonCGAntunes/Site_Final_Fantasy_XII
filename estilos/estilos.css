@@ -30,7 +30,7 @@ p, .descricao, td, th, .legenda {
 }
 
 .nomeDasWeapons {
-    width: 200px;
+    width: 500px;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 20px;
 }
@@ -71,4 +71,10 @@ a:hover {
 
 fieldset {
     border-radius: 5px;
+}
+
+.marcador {
+    float: right;
+    cursor: pointer;
+    color: crimson;
 }

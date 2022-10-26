@@ -1,24 +1,31 @@
-const novaSword = document.querySelector("#novaSword");
-const novaDagger = document.querySelector("#novaDagger");
-const novaAxe = document.querySelector("#novaAxe");
-const novaHammer = document.querySelector("#novaHammer");
-const novaMace = document.querySelector("#novaMace");
-const novaMeasure = document.querySelector("#novaMeasure");
-const novaGreatsword = document.querySelector("#novaGreatsword");
-const novaKatana = document.querySelector("#novaKatana");
-const novaNinjaSword = document.querySelector("#novaNinjaSword");
-const novaSpear = document.querySelector("#novaSpear");
-const novaPole = document.querySelector("#novaPole");
-const novaRod = document.querySelector("#novaRod");
-const novaStaff = document.querySelector("#novaStaff");
-const novaBow = document.querySelector("#novaBow");
-const novaCrossbow = document.querySelector("#novaCrossbow");
-const novaGun = document.querySelector("#novaGun");
-const novaHandBomb = document.querySelector("#novaHandBomb");
+
+let propriedades = ["Nome:", "Shop:", "Treasure:", "Drop:", "Steal:", "Poach:", "Bazaar:", "Sidequest:", "Hunt:", "Initial:", "Other:"];
+let weapons = [".sword", ".dagger", ".axe", ".hammer", ".mace", ".measure", ".greatsword", ".katana", ".ninjaSword", ".spear", ".pole", ".rod", ".staff", ".bow", ".crossbow", ".gun", ".handBomb"];
+
+const sword = document.querySelector(weapons[0]);
+const dagger = document.querySelector(weapons[1]);
+const axe = document.querySelector(weapons[2]);
+const hammer = document.querySelector(weapons[3]);
+const mace = document.querySelector(weapons[4]);
+const measure = document.querySelector(weapons[5]);
+const greatsword = document.querySelector(weapons[6]);
+const katana = document.querySelector(weapons[7]);
+const ninjaSword = document.querySelector(weapons[8]);
+const spear = document.querySelector(weapons[9]);
+const pole = document.querySelector(weapons[10]);
+const rod = document.querySelector(weapons[11]);
+const staff = document.querySelector(weapons[12]);
+const bow = document.querySelector(weapons[13]);
+const crossbow = document.querySelector(weapons[14]);
+const gun = document.querySelector(weapons[15]);
+const handBomb = document.querySelector(weapons[16]);
 
 window.addEventListener("DOMContentLoaded", function() {
-    let identificador = 0;// cria os IDs das weapons
-    
+    let lista = "";
+    let contador = 0;
+    let identificador = 0;// cria um id para cada weapon em sequencia
+
+    // #region variáveis
     let displaySwords = swords.map((item) => {
         return apresentaListas(item);
     });
@@ -86,6 +93,7 @@ window.addEventListener("DOMContentLoaded", function() {
     let displayHandBombs = handBombs.map((item) => {
         return apresentaListas(item);
     });
+    // #endregion
 
     displaySwords = displaySwords.join("");
     displayDaggers = displayDaggers.join("");
@@ -105,44 +113,45 @@ window.addEventListener("DOMContentLoaded", function() {
     displayGuns = displayGuns.join("");
     displayHandBombs = displayHandBombs.join("");
 
-    novaSword.innerHTML = displaySwords;
-    novaDagger.innerHTML = displayDaggers;
-    novaAxe.innerHTML = displayAxes;
-    novaHammer.innerHTML = displayHammers;
-    novaMace.innerHTML = displayMaces;
-    novaMeasure.innerHTML = displayMeasures;
-    novaGreatsword.innerHTML = displayGreatswords;
-    novaKatana.innerHTML = displayKatanas;
-    novaNinjaSword.innerHTML = displayNinjaSwords;
-    novaSpear.innerHTML = displaySpears;
-    novaPole.innerHTML = displayPoles;
-    novaRod.innerHTML = displayRods;
-    novaStaff.innerHTML = displayStaves;
-    novaBow.innerHTML = displayBows;
-    novaCrossbow.innerHTML = displayCrossbows;
-    novaGun.innerHTML = displayGuns;
-    novaHandBomb.innerHTML = displayHandBombs;
+    sword.innerHTML = displaySwords;
+    dagger.innerHTML = displayDaggers;
+    axe.innerHTML = displayAxes;
+    hammer.innerHTML = displayHammers;
+    mace.innerHTML = displayMaces;
+    measure.innerHTML = displayMeasures;
+    greatsword.innerHTML = displayGreatswords;
+    katana.innerHTML = displayKatanas;
+    ninjaSword.innerHTML = displayNinjaSwords;
+    spear.innerHTML = displaySpears;
+    pole.innerHTML = displayPoles;
+    rod.innerHTML = displayRods;
+    staff.innerHTML = displayStaves;
+    bow.innerHTML = displayBows;
+    crossbow.innerHTML = displayCrossbows;
+    gun.innerHTML = displayGuns;
+    handBomb.innerHTML = displayHandBombs;
 
     function apresentaListas(item) {
         lista = "";
         contador = 0;
+        Object.keys(item).forEach(key => {
+            if (item[key] !== "" && item[key] !== item.Nome) {
+                lista += `<li><span class="negrito">${propriedades[contador]}</span> ${item[key]}</li>`;
+            }
+            contador++;
+        });
+
         identificador++;
 
         return `
-        <li class="nomeDasWeapons">
-            <a href="weapons.html#identificador${identificador}">${item.Nome}</a><span class="marcador">Não adquirido</span>
-        </li>
-        <hr>
+            <tr>
+                <td id="identificador${identificador}" class="descricao">${item.Nome}</td>
+                <td>
+                    <ul>
+                    ${lista}
+                    </ul>
+                </td>
+            </tr>
         `;
     }
-
 });
-    
-const marcar = document.getElementsByClassName("marcador");
-
-marcar.addEventListener("click", minhaFuncao);
-
-
-function minhaFuncao() {
-    document.getElementsByClassName("marcador").innerHTML = "Novo texto";
-}
