@@ -1,6 +1,17 @@
-main {
+main, .distancia {
     margin: 0 auto;
     width: 600px;
+}
+
+.nomeDoJogo {
+    color: crimson;
+}
+
+.distancia {
+    margin: 0 auto;
+    width: 600px;
+    height: 200px;
+    background-color: cornflowerblue;
 }
 
 a {

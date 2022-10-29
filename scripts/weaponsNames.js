@@ -137,11 +137,17 @@ window.addEventListener("DOMContentLoaded", function() {
     }
     
     let texto = document.querySelectorAll('.marcador');
+    let box = this.document.querySelectorAll('.caixa');
 
     texto.forEach(element => {
         element.addEventListener("click", () => {
-            element.style.color = "royalblue";
-            element.innerHTML = `<input type="checkbox" checked class="caixa">Obtido`;
+            if(element.style.color == "darkolivegreen") {
+                element.style.color = "crimson";
+                element.innerHTML = `<input type="checkbox" class="caixa">Obtido`;
+            } else {
+                element.style.color = "darkolivegreen";
+                element.innerHTML = `<input type="checkbox" checked class="caixa">Obtido`;
+            }
         });
     });
 
