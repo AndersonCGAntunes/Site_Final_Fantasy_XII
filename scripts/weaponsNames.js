@@ -137,7 +137,6 @@ window.addEventListener("DOMContentLoaded", function() {
     }
     
     let texto = document.querySelectorAll('.marcador');
-    let box = this.document.querySelectorAll('.caixa');
 
     texto.forEach(element => {
         element.addEventListener("click", () => {

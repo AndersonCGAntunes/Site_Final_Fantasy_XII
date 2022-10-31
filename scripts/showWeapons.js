@@ -1,5 +1,5 @@
 
-let propriedades = ["Nome:", "Shop:", "Treasure:", "Drop:", "Steal:", "Poach:", "Bazaar:", "Sidequest:", "Hunt:", "Initial:", "Other:"];
+let propriedades = ["Nome:", "Special Properties:", "Shop:", "Treasure:", "Drop:", "Steal:", "Poach:", "Bazaar:", "Sidequest:", "Hunt:", "Initial:", "Other:"];
 let weapons = [".sword", ".dagger", ".axe", ".hammer", ".mace", ".measure", ".greatsword", ".katana", ".ninjaSword", ".spear", ".pole", ".rod", ".staff", ".bow", ".crossbow", ".gun", ".handBomb"];
 
 const sword = document.querySelector(weapons[0]);
@@ -23,6 +23,7 @@ const handBomb = document.querySelector(weapons[16]);
 window.addEventListener("DOMContentLoaded", function() {
     let lista = "";
     let contador = 0;
+    let contaBazaar = 0;
     let identificador = 0;// cria um id para cada weapon em sequencia
 
     // #region variáveis
@@ -136,11 +137,16 @@ window.addEventListener("DOMContentLoaded", function() {
         contador = 0;
         Object.keys(item).forEach(key => {
             if (item[key] !== "" && item[key] !== item.Nome) {
-                lista += `<li><span class="negrito">${propriedades[contador]}</span> ${item[key]}</li>`;
+                if (propriedades[contador] == "Bazaar:") {
+                    lista += `<li><a class="bazaar" href="#"><span class="negrito">${propriedades[contador]}</span></a> ${item[key]}</li>`;
+                } else {
+                    lista += `<li><span class="negrito">${propriedades[contador]}</span> ${item[key]}</li>`;
+                }
             }
             contador++;
+            
         });
-
+        console.log(contaBazaar);
         identificador++;
 
         return `

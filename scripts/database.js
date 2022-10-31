@@ -268,7 +268,7 @@ const swords = [
     },
     {
         Nome: "Great Trango",
-        SpecialProperties: "",
+        SpecialProperties: "Invisible",
         Shop: "",
         Treasure: "Pharos - Subterra (Abyssal - South)",
         Drop: "",
@@ -310,7 +310,7 @@ const swords = [
     },
     {
         Nome: "Kumbha",
-        SpecialProperties: "",
+        SpecialProperties: "Range: 2 / Knockback: 0 / Damage Formula: Same as Katana",
         Shop: "",
         Treasure: "",
         Drop: "",
@@ -826,7 +826,7 @@ const maces = [
     },
     {
         Nome: "Bone of Byblos",
-        SpecialProperties: "",
+        SpecialProperties: "Damage Formula: Same as Guns and Measures (Critical: 10%)",
         Shop: "",
         Treasure: "Lhusu Mines (Site 5) / Cerobi Steppe (The Northsward)",
         Drop: "",
@@ -913,7 +913,7 @@ const measures = [
     },
     {
         Nome: "Euclid's Sextant",
-        SpecialProperties: "",
+        SpecialProperties: "Does not inflict damage when on-hit effect activates.",
         Shop: "",
         Treasure: "Cerobi Steppe (Crossfield)",
         Drop: "",
@@ -1028,7 +1028,7 @@ const greatswords = [
     },
     {
         Nome: "Wyrmhero Blade",
-        SpecialProperties: "",
+        SpecialProperties: "Grants Bravery and Faith",
         Shop: "",
         Treasure: "",
         Drop: "",
@@ -1042,7 +1042,7 @@ const greatswords = [
     },
     {
         Nome: "Excalipur",
-        SpecialProperties: "",
+        SpecialProperties: "Knockback: 0 / Damage Formula: Same as Guns and Measures (Critical: 20%)",
         Shop: "",
         Treasure: "",
         Drop: "",
@@ -1056,7 +1056,7 @@ const greatswords = [
     },
     {
         Nome: "Treaty-Blade",
-        SpecialProperties: "",
+        SpecialProperties: "Knockback: 0",
         Shop: "",
         Treasure: "",
         Drop: "",
@@ -1070,7 +1070,7 @@ const greatswords = [
     },
     {
         Nome: "Sword of Kings",
-        SpecialProperties: "",
+        SpecialProperties: "Knockback: 0",
         Shop: "",
         Treasure: "",
         Drop: "",
@@ -1531,7 +1531,7 @@ const poles = [
     {
         Nome: "Oaken Pole",
         SpecialProperties: "",
-        Shop: "Rabanastre \ Giza Plains - The Dry \ Barheim Passage",
+        Shop: "Rabanastre / Giza Plains - The Dry / Barheim Passage",
         Treasure: "Garamsythe Waterway (No. 11 Channel (Flooded))",
         Drop: "Specter (3%)",
         Steal: "",
@@ -1813,7 +1813,7 @@ const rods = [
     },
     {
         Nome: "Rod of Faith",
-        SpecialProperties: "",
+        SpecialProperties: "Damage Formula: Same as Guns and Measures",
         Shop: "",
         Treasure: "Cerobi Steppe (The Terraced Bank)",
         Drop: "",
@@ -2183,7 +2183,7 @@ const bows = [
     },
     {
         Nome: "Seitengrat",
-        SpecialProperties: "",
+        SpecialProperties: "Range: 20 / Invisible",
         Shop: "",
         Treasure: "Skyferry (Air Deck)",
         Drop: "",
@@ -2575,6 +2575,7 @@ const handBombs = [
 const shields = [
     {
         Nome: "Leather Shield",
+        SpecialProperties: "",
         Shop: "Rabanastre / Giza Plains - The Dry / Nalbina Fortress / Barheim Passage",
         Treasure: "Dalmasca Westersand (Shimmering Horizons)",
         Drop: "Dire Rat (1%)",
@@ -2587,6 +2588,7 @@ const shields = [
     },
     {
         Nome: "Buckler",
+        SpecialProperties: "",
         Shop: "Rabanastre (After Barheim Passage) / Nalbina Fortress (After Barheim Passage) / Barheim Passage",
         Treasure: "Barheim Passage (Op Sector 36, Op Sector 37)",
         Drop: "Zombie (Barheim Passage, Tomb of Raithwall - 1%)",
@@ -2599,6 +2601,7 @@ const shields = [
     },
     {
         Nome: "Bronze Shield",
+        SpecialProperties: "",
         Shop: "Rabanastre (After Ba'Gamnan in Lhusu Mines) / Bhujerba / Dreadnought Leviathan",
         Treasure: "Trial Mode Stage 17 (with Diamond Armlet)",
         Drop: "",
@@ -2611,6 +2614,7 @@ const shields = [
     },
     {
         Nome: "Round Shield",
+        SpecialProperties: "",
         Shop: "Rabanastre (After Ondore's Estate) / Bhujerba (After Ondore's Estate) / Dalmasca Westersand (After Ondore's Estate) / Dreadnought Leviathan / Nam-Yensa Sandsea / Tomb of Raithwall / Balfonheim Port",
         Treasure: "Ogir-Yensa Sandsea (Platform 1 - Refinery, Central Junction) / Phon Coast (The Vaddu Strand) / Trial Mode Stage 37 (with Diamond Armlet)",
         Drop: "",
@@ -2623,6 +2627,7 @@ const shields = [
     },
     {
         Nome: "Shell Shield",
+        SpecialProperties: "",
         Shop: "",
         Treasure: "Stilshrine of Miriam (Cold Distance) / Cerobi Steppe (The Northsward)",
         Drop: "",
@@ -2635,6 +2640,7 @@ const shields = [
     },
     {
         Nome: "Golden Shield",
+        SpecialProperties: "",
         Shop: "Rabanastre (After defeating Belias) / Nam-Yensa Sandsea / Tomb of Raithwall / Jahara / Balfonheim Port",
         Treasure: "Trial Mode Stage 47 (with Diamond Armlet)",
         Drop: "Skull Warrior (1%)",
@@ -2647,6 +2653,7 @@ const shields = [
     },
     {
         Nome: "Ice Shield",
+        SpecialProperties: "",
         Shop: "Jahara / Mt Bur-Omisace",
         Treasure: "Tomb of Raithwall (Southfall Passage) / Paramina Rift (Karydine Glacier) / Stilshrine of Miriam (Walk of Mind) / Trial Mode Stage 57 (with Diamond Armlet)",
         Drop: "Redmaw (Henne Mines - 1%; Stilshrine of Miriam - 5%)",
@@ -2659,6 +2666,7 @@ const shields = [
     },
     {
         Nome: "Flame Shield",
+        SpecialProperties: "",
         Shop: "Eruyt Village / Mt Bur-Omisace",
         Treasure: "Henne Mines (Crossover A) / Paramina Rift (Head of the Silverflow) / Trial Mode Stage 68 (with Diamond Armlet)",
         Drop: "",
@@ -2671,6 +2679,7 @@ const shields = [
     },
     {
         Nome: "Diamond Shield",
+        SpecialProperties: "",
         Shop: "Mt Bur-Omisace",
         Treasure: "Barheim Passage (Special Op Sector 5) / Paramina Rift (Icebound Flow) / Trial Mode Stage 77 (with Diamond Armlet)",
         Drop: "Ichthon (Dalmasca Estersand [The Yoma] - 5%) / Apsara (25%) in Trial Mode Stage 31",
@@ -2683,6 +2692,7 @@ const shields = [
     },
     {
         Nome: "Platinum Shield",
+        SpecialProperties: "",
         Shop: "Mt Bur-Omisace (After defeating Vinuskar) / Mosphoran Highwaste (After defeating Judge Bergan)",
         Treasure: "Paramina Rift (Silverflow's End) / Tchita Uplands (Oliphzak Rise) / Trial Mode Stage 87 (with Diamond Armlet)",
         Drop: "",
@@ -2695,6 +2705,7 @@ const shields = [
     },
     {
         Nome: "Dragon Shield",
+        SpecialProperties: "",
         Shop: "Mosphoran Highwaste (After defeating Judge Bergan) / Phon Coast",
         Treasure: "Dalmasca Estersand (Broken Sands) / Mosphoran Highwaste (Northern Skirts) / Phon Coast (The Hakawea Shore) / Tchita Uplands (Sundered Earth) / Trial Mode Stage 97 (with Diamond Armlet)",
         Drop: "",
@@ -2707,6 +2718,7 @@ const shields = [
     },
     {
         Nome: "Crystal Shield",
+        SpecialProperties: "",
         Shop: "Phon Coast / Archades",
         Treasure: "Phon Coast (Cape Tialan) / Tchita Uplands (Sundered Earth)",
         Drop: "",
@@ -2719,6 +2731,7 @@ const shields = [
     },
     {
         Nome: "Genji Shield",
+        SpecialProperties: "",
         Shop: "",
         Treasure: "",
         Drop: "",
@@ -2731,6 +2744,7 @@ const shields = [
     },
     {
         Nome: "Kaiser Shield",
+        SpecialProperties: "",
         Shop: "Balfonheim Port",
         Treasure: "Feywood (Ice Field of Clearsight)",
         Drop: "Pallicant (5%) in Trial Mode Stage 43",
@@ -2743,6 +2757,7 @@ const shields = [
     },
     {
         Nome: "Aegis Shield",
+        SpecialProperties: "",
         Shop: "",
         Treasure: "Cerobi Steppe (Crossfield) / Giruvegan (The Aadha Water-Steps)",
         Drop: "Pandora (Necrohol of Nabudis - 1%)",
@@ -2755,6 +2770,7 @@ const shields = [
     },
     {
         Nome: "Demon Shield",
+        SpecialProperties: "",
         Shop: "",
         Treasure: "Cerobi Steppe (Crossfield) / Pharos - First Ascent (Wellspring Ravel - 1st Flight)",
         Drop: "Abysteel (Henne Mines - 1%)",
@@ -2767,6 +2783,7 @@ const shields = [
     },
     {
         Nome: "Venetian Shield",
+        SpecialProperties: "",
         Shop: "",
         Treasure: "Cerobi Steppe (The Northsward)",
         Drop: "",
@@ -2779,6 +2796,7 @@ const shields = [
     },
     {
         Nome: "Zodiac Escutcheon",
+        SpecialProperties: "",
         Shop: "",
         Treasure: "Sochen Cave Palace (Hall of the Wroth God)",
         Drop: "",
@@ -2791,6 +2809,7 @@ const shields = [
     },
     {
         Nome: "Ensanguined Shield",
+        SpecialProperties: "",
         Shop: "",
         Treasure: "Necrohol of Nabudis (Cloister of the Highborn)",
         Drop: "",
@@ -2803,6 +2822,7 @@ const shields = [
     },
     {
         Nome: "Gendarme",
+        SpecialProperties: "",
         Shop: "",
         Treasure: "Great Crystal (Crystal Peak)",
         Drop: "",
@@ -2819,6 +2839,7 @@ const lightArmor = [
     // Head
     {
         Nome: "Leather Cap",
+        SpecialProperties: "",
         Shop: "Rabanastre / Nalbina Fortress",
         Treasure: "",
         Drop: "",
@@ -2828,9 +2849,11 @@ const lightArmor = [
         Sidequest: "",
         Hunt: "",
         Initial: "Vaan and Reks",
+        Other: ""
     },
     {
         Nome: "Headgear",
+        SpecialProperties: "",
         Shop: "Rabanastre / Giza Plains - The Dry / Nalbina Fortress (After Barheim Passage) / Barheim Passage",
         Treasure: "Nalbina Dungeons (The Black Watch)",
         Drop: "",
@@ -2840,9 +2863,11 @@ const lightArmor = [
         Sidequest: "",
         Hunt: "",
         Initial: "Balthier and Fran",
+        Other: ""
     },
     {
         Nome: "Headguard",
+        SpecialProperties: "",
         Shop: "Rabanastre (After Barheim Passage) / Nalbina Fortress / Barheim Passage",
         Treasure: "Barheim Passage (Special Op Sector 3) / Trial Mode Stage 1 & 2 treasure with Diamond Armlet",
         Drop: "Urstrix (1%)",
@@ -2852,9 +2877,11 @@ const lightArmor = [
         Sidequest: "",
         Hunt: "Wolf in the Waste (Thextera)",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Leather Headgear",
+        SpecialProperties: "",
         Shop: "Rabanastre (After Ba'Gamnan in Lhusu Mines) / Bhujerba / Dreadnought Leviathan",
         Treasure: "Lhusu Mines (Transitway 1) / Trial Mode Stage 11 (with Diamond Armlet)",
         Drop: "Tiny Mimic (5%) / Tiny Bug (5%)",
@@ -2864,9 +2891,11 @@ const lightArmor = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Horned Hat",
+        SpecialProperties: "",
         Shop: "Rabanastre (After Ba'Gamnan in Lhusu Mines) / Bhujerba (After Ba'Gamnan in Lhusu Mines) / Dreadnought Leviathan",
         Treasure: "Trial Mode Stage 21 (with Diamond Armlet)",
         Drop: "LV.8–9 Suriander (1%)",
@@ -2876,9 +2905,11 @@ const lightArmor = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Balaclava",
+        SpecialProperties: "",
         Shop: "Rabanastre (After Ondore's Estate) / Bhujerba (After Ondore's Estate) / Dalmasca Westersand (After Ondore's Estate) / Nam-Yensa Sandsea / Tomb of Raithwall / Balfonheim Port",
         Treasure: "Nam-Yensa Sandsea (Demesne of the Sandqueen) / Trial Mode Stage 31 (with Diamond Armlet)",
         Drop: "",
@@ -2888,9 +2919,11 @@ const lightArmor = [
         Sidequest: "",
         Hunt: "Marauder in the Mines (Nidhogg)",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Soldier's Cap",
+        SpecialProperties: "",
         Shop: "Rabanastre (After defeating Belias) / Nam-Yensa Sandsea / Tomb of Raithwall / Balfonheim Port",
         Treasure: "Ogir-Yensa Sandsea (Central Junction) / Nam-Yensa Sandsea (Simoon Bluff) / Tomb of Raithwall (Northfall Passage) / Phon Coast (The Vaddu Strand) / Trial Mode Stage 41 (with Diamond Armlet)",
         Drop: "",
@@ -2900,9 +2933,11 @@ const lightArmor = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Green Beret",
+        SpecialProperties: "",
         Shop: "Jahara / Mt Bur-Omisace",
         Treasure: "Giza Plains - The Rains (Warrior's Wash) / Ozmone Plain (The Shred) / Trial Mode Stage 51 (with Diamond Armlet)",
         Drop: "Hyena (Giza Plains - The Rains - 5%)",
@@ -2912,9 +2947,11 @@ const lightArmor = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Red Cap",
+        SpecialProperties: "",
         Shop: "Eruyt Village / Mt Bur-Omisace",
         Treasure: "Golmore Jungle (The Needlebrake) / Paramina Rift (Head of the Silverflow) / Trial Mode Stage 60 (with Diamond Armlet)",
         Drop: "Hellhound (1%)",
@@ -2924,9 +2961,11 @@ const lightArmor = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Headband",
+        SpecialProperties: "",
         Shop: "Mt Bur-Omisace",
         Treasure: "Barheim Passage (Special Op Sector 5) / Paramina Rift (Icebound Flow) / Trial Mode Stage 71 (with Diamond Armlet)",
         Drop: "",
@@ -2936,9 +2975,11 @@ const lightArmor = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Pirate Hat",
+        SpecialProperties: "",
         Shop: "Mt Bur-Omisace (After defeating Vinuskar) / Mosphoran Highwaste (After defeating Judge Bergan)",
         Treasure: "Trial Mode Stage 81 (with Diamond Armlet)",
         Drop: "",
@@ -2948,9 +2989,11 @@ const lightArmor = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Goggle Mask",
+        SpecialProperties: "",
         Shop: "Mosphoran Highwaste (After defeating Judge Bergan) / Phon Coast",
         Treasure: "Tchita Uplands (Uazcuff Hills) / Trial Mode Stage 91 (with Diamond Armlet)",
         Drop: "Dragon Aevis (1%)",
@@ -2960,9 +3003,11 @@ const lightArmor = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Adamant Hat",
+        SpecialProperties: "",
         Shop: "Phon Coast / Archades",
         Treasure: "Salikawood (Piebald Path) / Phon Coast (The Mauleia Strand) / Tchita Uplands (Realm of the Elder Dream)",
         Drop: "",
@@ -2972,9 +3017,11 @@ const lightArmor = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Officer's Hat",
+        SpecialProperties: "",
         Shop: "Archades / Balfonheim Port",
         Treasure: "Tchita Uplands (Realm of the Elder Dream)",
         Drop: "Silicon Tortoise (Zertinan Caverns - 1%)",
@@ -2984,9 +3031,11 @@ const lightArmor = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Chakra Band",
+        SpecialProperties: "",
         Shop: "Balfonheim Port",
         Treasure: "Feywood (Ice Field of Clearsight) / Necrohol of Nabudis (Hall of Effulgent Light)",
         Drop: "",
@@ -2996,9 +3045,11 @@ const lightArmor = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Thief's Cap",
+        SpecialProperties: "",
         Shop: "",
         Treasure: "Cerobi Steppe (Old Elanise Road) / Great Crystal (Kabonii Jilaam Avaa)",
         Drop: "",
@@ -3008,9 +3059,11 @@ const lightArmor = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Gigas Hat",
+        SpecialProperties: "",
         Shop: "Balfonheim Port (After obtaining the Treaty-Blade)",
         Treasure: "Ridorana Cataract (Echoes from Time's Garden)",
         Drop: "",
@@ -3020,9 +3073,11 @@ const lightArmor = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Chaperon",
+        SpecialProperties: "",
         Shop: "",
         Treasure: "Cerobi Steppe (Crossfield) / Pharos - First Ascent (Wellspring Ravel - 2nd Flight)",
         Drop: "",
@@ -3032,9 +3087,11 @@ const lightArmor = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Crown of Laurels",
+        SpecialProperties: "",
         Shop: "",
         Treasure: "Cerobi Steppe (Old Elanise Road) / Great Crystal (Sirhru Phullam Udiipratii)",
         Drop: "Crusader (5%)",
@@ -3044,9 +3101,11 @@ const lightArmor = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Renewing Morion",
+        SpecialProperties: "",
         Shop: "",
         Treasure: "Lhusu Mines (Site 11) / Cerobi Steppe (Crossfield)",
         Drop: "Nightwalker (5%)",
@@ -3056,9 +3115,11 @@ const lightArmor = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Dueling Mask",
+        SpecialProperties: "",
         Shop: "",
         Treasure: "Henne Mines (Phase 2 Dig) / Cerobi Steppe (Crossfield)",
         Drop: "",
@@ -3068,10 +3129,12 @@ const lightArmor = [
         Sidequest: "Hunt Club",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     // Body
     {
         Nome: "Leather Clothing",
+        SpecialProperties: "",
         Shop: "Rabanastre / Nalbina Fortress",
         Treasure: "",
         Drop: "",
@@ -3081,9 +3144,11 @@ const lightArmor = [
         Sidequest: "",
         Hunt: "",
         Initial: "Vaan and Reks",
+        Other: ""
     },
     {
         Nome: "Chromed Leathers",
+        SpecialProperties: "",
         Shop: "Rabanastre / Giza Plains - The Dry / Nalbina Fortress / Barheim Passage",
         Treasure: "Garamsythe Waterway (No. 11 Channel (Flooded))",
         Drop: "",
@@ -3093,9 +3158,11 @@ const lightArmor = [
         Sidequest: "",
         Hunt: "",
         Initial: "Balthier and Fran",
+        Other: ""
     },
     {
         Nome: "Leather Breastplate",
+        SpecialProperties: "",
         Shop: "Rabanastre (After Barheim Passage) / Nalbina Fortress (After Barheim Passage) / Barheim Passage",
         Treasure: "Garamsythe Waterway (East Waterway Control), Trial Mode Stage 3 with Diamond Armlet",
         Drop: "",
@@ -3105,9 +3172,11 @@ const lightArmor = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Bronze Chestplate",
+        SpecialProperties: "",
         Shop: "Rabanastre (After Ba'Gamnan in Lhusu Mines) / Bhujerba / Dreadnought Leviathan",
         Treasure: "Trial Mode Stage 12 (with Diamond Armlet)",
         Drop: "",
@@ -3117,9 +3186,11 @@ const lightArmor = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Ringmail",
+        SpecialProperties: "",
         Shop: "Rabanastre (After Ba'Gamnan in Lhusu Mines) / Bhujerba (After Ba'Gamnan in Lhusu Mines) / Dreadnought Leviathan",
         Treasure: "Dreadnought Leviathan (Large Freight Stores) / Trial Mode Stage 22 (with Diamond Armlet)",
         Drop: "",
@@ -3129,9 +3200,11 @@ const lightArmor = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Windbreaker",
+        SpecialProperties: "",
         Shop: "Rabanastre (After Ondore's Estate) / Bhujerba (After Ondore's Estate) / Dalmasca Westersand (After Ondore's Estate) / Nam-Yensa Sandsea / Tomb of Raithwall / Balfonheim Port",
         Treasure: "Ogir-Yensa Sandsea (Platform 1 - Refinery) / Trial Mode Stage 32 (with Diamond Armlet)",
         Drop: "",
@@ -3141,9 +3214,11 @@ const lightArmor = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Heavy Coat",
+        SpecialProperties: "",
         Shop: "Rabanastre (After defeating Belias) / Nam-Yensa Sandsea / Tomb of Raithwall / Jahara / Balfonheim Port",
         Treasure: "Nam-Yensa Sandsea (Simoon Bluff) / Tomb of Raithwall (Southfall Passage) / Trial Mode Stage 42 (with Diamond Armlet)",
         Drop: "",
@@ -3153,9 +3228,11 @@ const lightArmor = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Survival Vest",
+        SpecialProperties: "",
         Shop: "Jahara / Mt Bur-Omisace",
         Treasure: "Giza Plains (Tracks of the Beast) / Trial Mode Stage 52 (with Diamond Armlet)",
         Drop: "",
@@ -3165,9 +3242,11 @@ const lightArmor = [
         Sidequest: "",
         Hunt: "The Cry of Its Power (Rocktoise)",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Brigandine",
+        SpecialProperties: "",
         Shop: "Eruyt Village / Mt Bur-Omisace",
         Treasure: "Henne Mines (Phase 1 Dig) / Paramina Rift (Freezing Gorge) / Tchita Uplands (Oliphzak Rise) / Trial Mode Stage 62 (with Diamond Armlet)",
         Drop: "",
@@ -3177,9 +3256,11 @@ const lightArmor = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Jujitsu Gi",
+        SpecialProperties: "",
         Shop: "Mt Bur-Omisace",
         Treasure: "Barheim Passage (East-West Bypass) / Paramina Rift (Icebound Flow) / Trial Mode Stage 72 (with Diamond Armlet)",
         Drop: "",
@@ -3189,9 +3270,11 @@ const lightArmor = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Viking Coat",
+        SpecialProperties: "",
         Shop: "Mt Bur-Omisace (After defeating Vinuskar) / Mosphoran Highwaste (After defeating Judge Bergan)",
         Treasure: "Dalmasca Estersand (Broken Sands) / Phon Coast (Cape Tialan) / Trial Mode Stage 82 (with Diamond Armlet)",
         Drop: "",
@@ -3201,9 +3284,11 @@ const lightArmor = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Metal Jerkin",
+        SpecialProperties: "",
         Shop: "Mosphoran Highwaste (After defeating Judge Bergan) / Phon Coast",
         Treasure: "Mosphoran Highwaste (Northern Skirts) / Tchita Uplands (The Lost Way) / Trial Mode Stage 92 (with Diamond Armlet)",
         Drop: "",
@@ -3213,9 +3298,11 @@ const lightArmor = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Adamant Vest",
+        SpecialProperties: "",
         Shop: "Phon Coast / Archades",
         Treasure: "Phon Coast (Limatra Hills) / Tchita Uplands (The Skytrail)",
         Drop: "",
@@ -3225,9 +3312,11 @@ const lightArmor = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Barrel Coat",
+        SpecialProperties: "",
         Shop: "Archades / Balfonheim Port",
         Treasure: "Tchita Uplands (The Highlands) / Nabreus Deadlands (Field of the Fallen Lord)",
         Drop: "",
@@ -3237,9 +3326,11 @@ const lightArmor = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Power Vest",
+        SpecialProperties: "",
         Shop: "Balfonheim Port",
         Treasure: "Feywood (Ice Field of Clearsight) / Necrohol of Nabudis (Hall of Slumbering Might)",
         Drop: "",
@@ -3249,9 +3340,11 @@ const lightArmor = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Ninja Gear",
+        SpecialProperties: "",
         Shop: "",
         Treasure: "Cerobi Steppe (South Liavell Hills) / Great Crystal (Trahk Jilaam Praa'dii)",
         Drop: "",
@@ -3261,9 +3354,11 @@ const lightArmor = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Gigas Chestplate",
+        SpecialProperties: "",
         Shop: "Balfonheim Port (After obtaining the Treaty-Blade)",
         Treasure: "Ridorana Cataract (Echoes from Time's Garden)",
         Drop: "Molen (5%)",
@@ -3273,9 +3368,11 @@ const lightArmor = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Minerva Bustier",
+        SpecialProperties: "",
         Shop: "",
         Treasure: "Cerobi Steppe (North Liavell Hills) / Pharos - Second Ascent (Station of Banishment)",
         Drop: "Foobar (Nabreus Deadlands - 1%)",
@@ -3285,9 +3382,11 @@ const lightArmor = [
         Sidequest: "Hunt Club",
         Hunt: "Old Legends, Decaying Bonds (Lindwyrm)",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Rubber Suit",
+        SpecialProperties: "",
         Shop: "",
         Treasure: "Cerobi Steppe (North Liavell Hills) / Great Crystal (Sirhru Jilaam Praa'vaa)",
         Drop: "",
@@ -3297,9 +3396,11 @@ const lightArmor = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Mirage Vest",
+        SpecialProperties: "",
         Shop: "",
         Treasure: "Cerobi Steppe (Feddik River)",
         Drop: "",
@@ -3309,9 +3410,11 @@ const lightArmor = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Brave Suit",
+        SpecialProperties: "",
         Shop: "",
         Treasure: "Henne Mines (Special Charter Shaft) / Cerobi Steppe (Feddik River)",
         Drop: "",
@@ -3321,6 +3424,7 @@ const lightArmor = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
+        Other: ""
     }
 ];
 
@@ -3328,6 +3432,7 @@ const heavyArmor = [
     // Head
     {
         Nome: "Leather Helm",
+        SpecialProperties: "",
         Shop: "Rabanastre / Giza Plains - The Dry / Nalbina Fortress / Barheim Passage",
         Treasure: "",
         Drop: "",
@@ -3337,9 +3442,11 @@ const heavyArmor = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Bronze Helm",
+        SpecialProperties: "",
         Shop: "Rabanastre (After Barheim Passage) / Nalbina Fortress (After Barheim Passage) / Barheim Passage",
         Treasure: "Nalbina Dungeons (The Black Watch) / Trial Mode Stage 6 (with Diamond Armlet)",
         Drop: "",
@@ -3349,9 +3456,11 @@ const heavyArmor = [
         Sidequest: "",
         Hunt: "",
         Initial: "Basch and Ashe",
+        Other: ""
     },
     {
         Nome: "Sallet",
+        SpecialProperties: "",
         Shop: "Rabanastre (After Ba'Gamnan in Lhusu Mines) / Bhujerba / Dreadnought Leviathan",
         Treasure: "Trial Mode Stage 15 (with Diamond Armlet)",
         Drop: "",
@@ -3361,9 +3470,11 @@ const heavyArmor = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Iron Helm",
+        SpecialProperties: "",
         Shop: "Rabanastre (After Ba'Gamnan in Lhusu Mines) / Bhujerba (After Ba'Gamnan in Lhusu Mines) / Dreadnought Leviathan",
         Treasure: "Dreadnought Leviathan (Starboard Section) / Trial Mode Stage 25 (with Diamond Armlet)",
         Drop: "Skeleton (1%), Skull Defender (Lhusu Mines - 1%)",
@@ -3373,9 +3484,11 @@ const heavyArmor = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Barbut",
+        SpecialProperties: "",
         Shop: "Rabanastre (After Ondore's Estate) / Bhujerba (After Ondore's Estate) / Dalmasca Westersand (After Ondore's Estate) / Nam-Yensa Sandsea / Tomb of Raithwall / Balfonheim Port",
         Treasure: "Ogir-Yensa Sandsea (East Junction) / Trial Mode Stage 35 (with Diamond Armlet)",
         Drop: "",
@@ -3385,9 +3498,11 @@ const heavyArmor = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Winged Helm",
+        SpecialProperties: "",
         Shop: "Rabanastre (After defeating Belias) / Nam-Yensa Sandsea / Tomb of Raithwall / Jahara / Balfonheim Port",
         Treasure: "Nam-Yensa Sandsea (Withering Shores) / Trial Mode Stage 45 (with Diamond Armlet)",
         Drop: "Ragoh (1%), Slime (1%)",
@@ -3397,9 +3512,11 @@ const heavyArmor = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Golden Helm",
+        SpecialProperties: "",
         Shop: "Jahara / Mt Bur-Omisace",
         Treasure: "Giza Plains - The Rains (Gizas South Bank) / Trial Mode Stage 55 (with Diamond Armlet)",
         Drop: "",
@@ -3409,9 +3526,11 @@ const heavyArmor = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Burgonet",
+        SpecialProperties: "",
         Shop: "Eruyt Village / Mt Bur-Omisace",
         Treasure: "Golmore Jungle (Paths of Chained Light) / Paramina Rift (Head of the Silverflow) / Trial Mode Stage 66 (with Diamond Armlet)",
         Drop: "Dark Skeleton (1%)",
@@ -3421,9 +3540,11 @@ const heavyArmor = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Close Helmet",
+        SpecialProperties: "",
         Shop: "Mt Bur-Omisace",
         Treasure: "Barheim Passage (The Zeviah Span) / Paramina Rift (Icebound Flow) / Trial Mode Stage 75 (with Diamond Armlet)",
         Drop: "",
@@ -3433,9 +3554,11 @@ const heavyArmor = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Bone Helm",
+        SpecialProperties: "",
         Shop: "Mt Bur-Omisace (After defeating Vinuskar) / Mosphoran Highwaste (After defeating Judge Bergan)",
         Treasure: "Dalmasca Estersand (The Yoma) / Trial Mode Stage 85 (with Diamond Armlet)",
         Drop: "Wild Saurian (The Stepping - 1%)",
@@ -3445,9 +3568,11 @@ const heavyArmor = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Diamond Helm",
+        SpecialProperties: "",
         Shop: "Mosphoran Highwaste (After defeating Judge Bergan) / Phon Coast",
         Treasure: "Dalmasca Estersand (Broken Sands) / Tchita Uplands (Sundered Earth) / Trial Mode Stage 96 (with Diamond Armlet)",
         Drop: "Grave Lord (5%)",
@@ -3457,9 +3582,11 @@ const heavyArmor = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Steel Mask",
+        SpecialProperties: "",
         Shop: "Phon Coast / Archades",
         Treasure: "Phon Coast (Caima Hills) / Tchita Uplands (The Highlands)",
         Drop: "",
@@ -3469,9 +3596,11 @@ const heavyArmor = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Platinum Helm",
+        SpecialProperties: "",
         Shop: "Archades / Balfonheim Port",
         Treasure: "Tchita Uplands (Uazcuff Hills)",
         Drop: "Wood Toad (5%)",
@@ -3481,9 +3610,11 @@ const heavyArmor = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Giant's Helmet",
+        SpecialProperties: "",
         Shop: "Balfonheim Port",
         Treasure: "Feywood (Ice Field of Clearsight) / Necrohol of Nabudis (Hall of the Ivory Covenant)",
         Drop: "",
@@ -3493,9 +3624,11 @@ const heavyArmor = [
         Sidequest: "",
         Hunt: "Adding Insult to Injury (Roblon)",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Dragon Helm",
+        SpecialProperties: "",
         Shop: "",
         Treasure: "Cerobi Steppe (North Liavell Hills) / Pharos - First Ascent (Wellspring Ravel - 1st Flight)",
         Drop: "Aeronite (5%)",
@@ -3505,9 +3638,11 @@ const heavyArmor = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Genji Helm",
+        SpecialProperties: "",
         Shop: "",
         Treasure: "",
         Drop: "",
@@ -3517,9 +3652,11 @@ const heavyArmor = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Magepower Shishak",
+        SpecialProperties: "",
         Shop: "Lhusu Mines (Site 6 South) / Cerobi Steppe (The Northsward)",
         Treasure: "",
         Drop: "",
@@ -3529,9 +3666,11 @@ const heavyArmor = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Grand Helm",
+        SpecialProperties: "",
         Shop: "",
         Treasure: "Henne Mines (Phase 2 Dig) / Cerobi Steppe (Feddik River)",
         Drop: "Tower (1%)",
@@ -3541,10 +3680,12 @@ const heavyArmor = [
         Sidequest: "Hunt Club",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     // Body
     {
         Nome: "Leather Armor",
+        SpecialProperties: "",
         Shop: "Rabanastre / Giza Plains - The Dry / Nalbina Fortress / Barheim Passage",
         Treasure: "Dalmasca Westersand (The Midfault)",
         Drop: "",
@@ -3554,9 +3695,11 @@ const heavyArmor = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Bronze Armor",
+        SpecialProperties: "",
         Shop: "Rabanastre (After Barheim Passage) / Nalbina Fortress (After Barheim Passage) / Barheim Passage",
         Treasure: "Barheim Passage (Great Eastern Passage) / Trial Mode Stage 7 (with Diamond Armlet)",
         Drop: "Lv. 4–6 Garchimacera (5%)",
@@ -3566,9 +3709,11 @@ const heavyArmor = [
         Sidequest: "",
         Hunt: "",
         Initial: "Basch and Ashe",
+        Other: ""
     },
     {
         Nome: "Scale Armor",
+        SpecialProperties: "",
         Shop: "Rabanastre (After Ba'Gamnan in Lhusu Mines) / Bhujerba / Dreadnought Leviathan",
         Treasure: "Trial Mode Stage 16 (with Diamond Armlet)",
         Drop: "",
@@ -3578,9 +3723,11 @@ const heavyArmor = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Iron Armor",
+        SpecialProperties: "",
         Shop: "Rabanastre (After Ba'Gamnan in Lhusu Mines) / Bhujerba (After Ba'Gamnan in Lhusu Mines) / Dreadnought Leviathan",
         Treasure: "Dreadnought Leviathan (Starboard Section) / Trial Mode Stage 26 (with Diamond Armlet)",
         Drop: "",
@@ -3590,9 +3737,11 @@ const heavyArmor = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Linen Cuirass",
+        SpecialProperties: "",
         Shop: "Rabanastre (After Ondore's Estate) / Bhujerba (After Ondore's Estate) / Dalmasca Westersand (After Ondore's Estate) / Nam-Yensa Sandsea / Tomb of Raithwall / Balfonheim Port",
         Treasure: "Ogir-Yensa Sandsea (Primary Tank Complex) / Trial Mode Stage 36 (with Diamond Armlet)",
         Drop: "Wyvern (5%) / Bellwyvern (Cerobi Steppe - 5%)",
@@ -3602,9 +3751,11 @@ const heavyArmor = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Chainmail",
+        SpecialProperties: "",
         Shop: "Rabanastre (After defeating Belias) / Nam-Yensa Sandsea / Tomb of Raithwall / Jahara / Balfonheim Port",
         Treasure: "Ogir-Yensa Sandsea (East Junction) / Nam-Yensa Sandsea (Withering Shores) / Zertinan Caverns (Hourglass Basin) / Ozmone Plain (Field of Fallen Wings) / Trial Mode Stage 46 (with Diamond Armlet)",
         Drop: "",
@@ -3614,9 +3765,11 @@ const heavyArmor = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Golden Armor",
+        SpecialProperties: "",
         Shop: "Jahara / Mt Bur-Omisace",
         Treasure: "Giza Plains (Tracks of the Beast) / Trial Mode Stage 56 (with Diamond Armlet)",
         Drop: "Aerieel (5%)",
@@ -3626,9 +3779,11 @@ const heavyArmor = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Shielded Armor",
+        SpecialProperties: "",
         Shop: "Eruyt Village / Mt Bur-Omisace",
         Treasure: "Henne Mines (Starboard Section) / Paramina Rift (Freezing Gorge) / Trial Mode Stage 67 (with Diamond Armlet)",
         Drop: "",
@@ -3638,9 +3793,11 @@ const heavyArmor = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Demon Mail",
+        SpecialProperties: "",
         Shop: "Mt Bur-Omisace",
         Treasure: "Barheim Passage (The Zeviah Span) / Phon Coast (Cape Uahuk) / Trial Mode Stage 76 (with Diamond Armlet)",
         Drop: "Darkmare (5%) / Bull Croc (5%)",
@@ -3650,9 +3807,11 @@ const heavyArmor = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Bone Mail",
+        SpecialProperties: "",
         Shop: "Mt Bur-Omisace (After defeating Vinuskar) / Mosphoran Highwaste (After defeating Judge Bergan)",
         Treasure: "Dalmasca Estersand (The Yoma) / Trial Mode Stage 86 (with Diamond Armlet)",
         Drop: "Wild Saurian (The Yoma/Broken Sands - 1%)",
@@ -3662,9 +3821,11 @@ const heavyArmor = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Diamond Armor",
+        SpecialProperties: "",
         Shop: "Mosphoran Highwaste (After defeating Judge Bergan) / Phon Coast",
         Treasure: "Mosphoran Highwaste (Trail of Sky-flung Stone) / Tchita Uplands (The Highlands) / Trial Mode Stage 96 (with Diamond Armlet)",
         Drop: "Baknamy (Unarmed) (Salikawood - 3%)",
@@ -3674,9 +3835,11 @@ const heavyArmor = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Mirror Mail",
+        SpecialProperties: "",
         Shop: "Phon Coast / Archades",
         Treasure: "Phon Coast (Caima Hills) / Tchita Uplands (Sundered Earth)",
         Drop: "Mirrorknight (3%)",
@@ -3686,9 +3849,11 @@ const heavyArmor = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Platinum Armor",
+        SpecialProperties: "",
         Shop: "Archades / Balfonheim Port",
         Treasure: "Tchita Uplands (Fields of Eternity)",
         Drop: "Apsara (5%) in Trial Mode Stage 31",
@@ -3698,9 +3863,11 @@ const heavyArmor = [
         Sidequest: "Hunt Club",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Carabineer Mail",
+        SpecialProperties: "",
         Shop: "Balfonheim Port",
         Treasure: "Feywood (Ice Field of Clearsight) / Necrohol of Nabudis (Cloister of the Highborn)",
         Drop: "",
@@ -3710,9 +3877,11 @@ const heavyArmor = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Dragon Mail",
+        SpecialProperties: "",
         Shop: "",
         Treasure: "Cerobi Steppe (Old Elanise Road) / Pharos - Second Ascent (Station of Ascension)",
         Drop: "",
@@ -3722,9 +3891,11 @@ const heavyArmor = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Genji Armor",
+        SpecialProperties: "",
         Shop: "",
         Treasure: "",
         Drop: "",
@@ -3734,9 +3905,11 @@ const heavyArmor = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Maximillian",
+        SpecialProperties: "",
         Shop: "",
         Treasure: "Lhusu Mines (Site 6 North) / Cerobi Steppe (Feddik River)",
         Drop: "Elvoret (1%)",
@@ -3746,9 +3919,11 @@ const heavyArmor = [
         Sidequest: "Hunt Club",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Grand Armor",
+        SpecialProperties: "",
         Shop: "",
         Treasure: "Henne Mines (Special Charter Shaft) / Cerobi Steppe (The Northsward)",
         Drop: "",
@@ -3758,6 +3933,7 @@ const heavyArmor = [
         Sidequest: "Hunt Club",
         Hunt: "",
         Initial: "",
+        Other: ""
     }
 ];
 
@@ -3765,6 +3941,7 @@ const mysticArmor = [
     // Head
     {
         Nome: "Cotton Cap",
+        SpecialProperties: "",
         Shop: "Rabanastre / Nalbina Fortress",
         Treasure: "Dalmasca Westersand (Galtea Downs)",
         Drop: "Alpha Hyena (5%), Hyena (The Dry - 3%)",
@@ -3774,9 +3951,11 @@ const mysticArmor = [
         Sidequest: "",
         Hunt: "",
         Initial: "Penelo",
+        Other: ""
     },
     {
         Nome: "Magick Curch",
+        SpecialProperties: "",
         Shop: "Rabanastre / Giza Plains - The Dry / Nalbina Fortress / Barheim Passage",
         Treasure: "",
         Drop: "",
@@ -3786,9 +3965,11 @@ const mysticArmor = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Pointy Hat",
+        SpecialProperties: "",
         Shop: "Rabanastre (After Barheim Passage) / Nalbina Fortress (After Barheim Passage) / Barheim Passage",
         Treasure: "Barheim Passage (Op Sector 29, Op Sector 37) / Phon Coast (The Vaddu Strand) / Trial Mode Stage 4 (Diamond Armlet)",
         Drop: "",
@@ -3798,9 +3979,11 @@ const mysticArmor = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Topkapi Hat",
+        SpecialProperties: "",
         Shop: "Rabanastre (After Ba'Gamnan in Lhusu Mines) / Bhujerba / Dreadnought Leviathan",
         Treasure: "Lhusu Mines (Oltam Span) / Trial Mode Stage 13 (with Diamond Armlet)",
         Drop: "Flan (Barheim Passage - 5%)",
@@ -3810,9 +3993,11 @@ const mysticArmor = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Calot Hat",
+        SpecialProperties: "",
         Shop: "Rabanastre (After Ba'Gamnan in Lhusu Mines) / Bhujerba (After Ba'Gamnan in Lhusu Mines) / Dreadnought Leviathan",
         Treasure: "Phon Coast (The Vaddu Strand) / Trial Mode Stage 23 (with Diamond Armlet)",
         Drop: "Ripe Rampager (5%)",
@@ -3822,9 +4007,11 @@ const mysticArmor = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Wizard's Hat",
+        SpecialProperties: "",
         Shop: "Rabanastre (After Ondore's Estate) / Bhujerba (After Ondore's Estate) / Dalmasca Westersand (After Ondore's Estate) / Nam-Yensa Sandsea / Tomb of Raithwall",
         Treasure: "Ogir-Yensa Sandsea (Platform 2 - Refinery) / Nam-Yensa Sandsea (Demesne of the Sandqueen) / Trial Mode Stage 33 (with Diamond Armlet)",
         Drop: "Nekhbet (5%)",
@@ -3834,9 +4021,11 @@ const mysticArmor = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Lambent Hat",
+        SpecialProperties: "",
         Shop: "Rabanastre (After defeating Belias) / Nam-Yensa Sandsea / Tomb of Raithwall / Jahara / Balfonheim Port",
         Treasure: "Ogir-Yensa Sandsea (Central Junction) / Nam-Yensa Sandsea (Simoon Bluff) / Tomb of Raithwall (Southfall Passage) / Trial Mode Stage 43 (with Diamond Armlet)",
         Drop: "",
@@ -3846,9 +4035,11 @@ const mysticArmor = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Feathered Cap",
+        SpecialProperties: "",
         Shop: "Jahara / Mt Bur-Omisace",
         Treasure: "Giza Plains - The Rains (Warrior's Wash) / Trial Mode Stage 53 (with Diamond Armlet)",
         Drop: "",
@@ -3858,9 +4049,11 @@ const mysticArmor = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Mage's Hat",
+        SpecialProperties: "",
         Shop: "Eruyt Village / Mt Bur-Omisace",
         Treasure: "Golmore Jungle (The Needlebrake) / Paramina Rift (Head of the Silverflow) / Trial Mode Stage 63 (with Diamond Armlet)",
         Drop: "",
@@ -3870,9 +4063,11 @@ const mysticArmor = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Lamia's Tiara",
+        SpecialProperties: "",
         Shop: "Mt Bur-Omisace",
         Treasure: "Barheim Passage (The Zeviah Span) / Paramina Rift (Icebound Flow) / Phon Coast (The Mauleia Strand) / Trial Mode Stage 73 (with Diamond Armlet)",
         Drop: "",
@@ -3882,9 +4077,11 @@ const mysticArmor = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Sorcerer's Hat",
+        SpecialProperties: "",
         Shop: "Mt Bur-Omisace (After defeating Vinuskar) / Mosphoran Highwaste (After defeating Judge Bergan)",
         Treasure: "Trial Mode Stage 83 (with Diamond Armlet)",
         Drop: "",
@@ -3894,9 +4091,11 @@ const mysticArmor = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Black Cowl",
+        SpecialProperties: "",
         Shop: "Mosphoran Highwaste (After defeating Judge Bergan) / Phon Coast",
         Treasure: "Dalmasca Estersand (Broken Sands) / Trial Mode Stage 93 (with Diamond Armlet)",
         Drop: "Vulture (5%)",
@@ -3906,9 +4105,11 @@ const mysticArmor = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Astrakhan Hat",
+        SpecialProperties: "",
         Shop: "Phon Coast / Archades",
         Treasure: "Phon Coast (Cape Uahuk) / Tchita Uplands (The Skytrail)",
         Drop: "Sprinter (1%)",
@@ -3918,9 +4119,11 @@ const mysticArmor = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Gaia Hat",
+        SpecialProperties: "",
         Shop: "Archades / Balfonheim Port",
         Treasure: "Tchita Uplands (Sundered Earth)",
         Drop: "Mallicant (1%) / Buer (1%)",
@@ -3930,9 +4133,11 @@ const mysticArmor = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Hypnocrown",
+        SpecialProperties: "",
         Shop: "Balfonheim Port",
         Treasure: "Feywood (Ice Field of Clearsight) / Necrohol of Nabudis (Cloister of Distant Song)",
         Drop: "Zombie Knight (5%)",
@@ -3942,9 +4147,11 @@ const mysticArmor = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Gold Hairpin",
+        SpecialProperties: "",
         Shop: "",
         Treasure: "Cerobi Steppe (South Liavell Hills) / Great Crystal (Bhrum Pis Pratii)",
         Drop: "",
@@ -3954,9 +4161,11 @@ const mysticArmor = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Celebrant's Miter",
+        SpecialProperties: "",
         Shop: "Balfonheim Port (After obtaining the Treaty-Blade)",
         Treasure: "Ridorana Cataract (Echoes from Time's Garden)",
         Drop: "",
@@ -3966,9 +4175,11 @@ const mysticArmor = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Black Mask",
+        SpecialProperties: "",
         Shop: "",
         Treasure: "Cerobi Steppe (The Terraced Bank) / Pharos - First Ascent (Horizon's Cusp)",
         Drop: "Banshee (1%)",
@@ -3978,9 +4189,11 @@ const mysticArmor = [
         Sidequest: "Hunt Club",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "White Mask",
+        SpecialProperties: "",
         Shop: "",
         Treasure: "Cerobi Steppe (North Liavell Hills) / Necrohol of Nabudis (Cloister of Distant Song)",
         Drop: "Juggernaut (5%)",
@@ -3990,9 +4203,11 @@ const mysticArmor = [
         Sidequest: "Hunt Club",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Golden Skullcap",
+        SpecialProperties: "",
         Shop: "",
         Treasure: "Lhusu Mines (Site 11) / Cerobi Steppe (The Northsward)",
         Drop: "Dead Bones (Pharos - Third Ascent, Subterra - 1%)",
@@ -4002,9 +4217,11 @@ const mysticArmor = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Circlet",
+        SpecialProperties: "",
         Shop: "",
         Treasure: "Henne Mines (Phase 2 Dig) / Cerobi Steppe (Crossfield)",
         Drop: "",
@@ -4014,10 +4231,12 @@ const mysticArmor = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     // Body
     {
         Nome: "Cotton Shirt",
+        SpecialProperties: "",
         Shop: "Rabanastre / Nalbina Fortress",
         Treasure: "Dalmasca Westersand (The Midfault)",
         Drop: "",
@@ -4027,9 +4246,11 @@ const mysticArmor = [
         Sidequest: "",
         Hunt: "",
         Initial: "Penelo",
+        Other: ""
     },
     {
         Nome: "Light Woven Shirt",
+        SpecialProperties: "",
         Shop: "Rabanastre / Giza Plains - The Dry / Nalbina Fortress / Barheim Passage",
         Treasure: "Garamsythe Waterway (No. 11 Channel (Flooded))",
         Drop: "Ichthon (Garamsythe Waterway, Dalmasca Estersand - 5%)",
@@ -4039,9 +4260,11 @@ const mysticArmor = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Silken Shirt",
+        SpecialProperties: "",
         Shop: "Rabanastre (After Barheim Passage) / Nalbina Fortress (After Barheim Passage) / Barheim Passage",
         Treasure: "Garamsythe Waterway (No. 10 Channel (Flooded)) / Nalbina Dungeons (The Black Watch) / Trial Mode Stage 5 (with Diamond Armlet)",
         Drop: "",
@@ -4051,9 +4274,11 @@ const mysticArmor = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Kilimweave Shirt",
+        SpecialProperties: "",
         Shop: "Rabanastre (After Ba'Gamnan in Lhusu Mines) / Bhujerba / Dreadnought Leviathan",
         Treasure: "Trial Mode Stage 14 (with Diamond Armlet)",
         Drop: "",
@@ -4063,9 +4288,11 @@ const mysticArmor = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Shepherd's Bolero",
+        SpecialProperties: "",
         Shop: "Rabanastre (After Ba'Gamnan in Lhusu Mines) / Bhujerba (After Ba'Gamnan in Lhusu Mines) / Dreadnought Leviathan",
         Treasure: "Dreadnought Leviathan (Large Freight Stores) / Trial Mode Stage 24 (with Diamond Armlet)",
         Drop: "",
@@ -4075,9 +4302,11 @@ const mysticArmor = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Wizard's Robes",
+        SpecialProperties: "",
         Shop: "Rabanastre (After Ondore's Estate) / Bhujerba (After Ondore's Estate) / Dalmasca Westersand (After Ondore's Estate) / Nam-Yensa Sandsea / Balfonheim Port",
         Treasure: "Ogir-Yensa Sandsea (Primary Tank Complex) / Trial Mode Stage 34 (with Diamond Armlet)",
         Drop: "",
@@ -4087,9 +4316,11 @@ const mysticArmor = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Chanter's Djellaba",
+        SpecialProperties: "",
         Shop: "Rabanastre (After defeating Belias) / Nam-Yensa Sandsea / Tomb of Raithwall / Jahara / Balfonheim Port",
         Treasure: "Nam-Yensa Sandsea (Simoon Bluff) / Tomb of Raithwall (Northfall Passage) / Zertinan Caverns (Sandfalls) / Trial Mode Stage 44 (with Diamond Armlet)",
         Drop: "",
@@ -4099,9 +4330,11 @@ const mysticArmor = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Traveler's Vestment",
+        SpecialProperties: "",
         Shop: "Jahara / Mt Bur-Omisace",
         Treasure: "Giza Plains (Tracks of the Beast) / Trial Mode Stage 54 (with Diamond Armlet)",
         Drop: "Ichthon (Giza Plains - The Rains - 5%)",
@@ -4111,9 +4344,11 @@ const mysticArmor = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Mage's Habit",
+        SpecialProperties: "",
         Shop: "Eruyt Village / Mt Bur-Omisace",
         Treasure: "Henne Mines (Phase 1 Dig) / Paramina Rift (Freezing Gorge) / Trial Mode Stage 65 (with Diamond Armlet)",
         Drop: "Battery Mimic (1%)",
@@ -4123,9 +4358,11 @@ const mysticArmor = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Enchanter's Habit",
+        SpecialProperties: "",
         Shop: "Mt Bur-Omisace",
         Treasure: "Barheim Passage (Special Op Sector 5) / Tchita Uplands (Oliphzak Rise) / Trial Mode Stage 74 (with Diamond Armlet)",
         Drop: "Ghoul (5%)",
@@ -4135,9 +4372,11 @@ const mysticArmor = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Sorcerer's Habit",
+        SpecialProperties: "",
         Shop: "Mt Bur-Omisace (After defeating Vinuskar) / Mosphoran Highwaste (After defeating Judge Bergan)",
         Treasure: "Phon Coast (Pora-Pora Sands) / Trial Mode Stage 84 (with Diamond Armlet)",
         Drop: "",
@@ -4147,9 +4386,11 @@ const mysticArmor = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Black Garb",
+        SpecialProperties: "",
         Shop: "Mosphoran Highwaste (After defeating Judge Bergan) / Phon Coast",
         Treasure: "Mosphoran Highwaste (Trail of Sky-flung Stone, Northern Skirts) / Tchita Uplands (The Highlands) / Trial Mode Stage 94 (with Diamond Armlet)",
         Drop: "",
@@ -4159,9 +4400,11 @@ const mysticArmor = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Carmagnole",
+        SpecialProperties: "",
         Shop: "Phon Coast / Archades",
         Treasure: "Phon Coast (The Hakawea Shore) / Tchita Uplands (Oliphzak Rise)",
         Drop: "",
@@ -4171,9 +4414,11 @@ const mysticArmor = [
         Sidequest: "",
         Hunt: "The Mine Flayer (Mindflayer)",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Maduin Gear",
+        SpecialProperties: "",
         Shop: "Archades / Balfonheim Port",
         Treasure: "Tchita Uplands (The Lost Way) / Nabreus Deadlands (The Slumbermead)",
         Drop: "",
@@ -4183,9 +4428,11 @@ const mysticArmor = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Jade Gown",
+        SpecialProperties: "",
         Shop: "Balfonheim Port",
         Treasure: "Feywood (Ice Field of Clearsight) / Necrohol of Nabudis (Cloister of the Highborn)",
         Drop: "",
@@ -4195,9 +4442,11 @@ const mysticArmor = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Gaia Gear",
+        SpecialProperties: "",
         Shop: "",
         Treasure: "Cerobi Steppe (South Liavell Hills) / Great Crystal (Trahk Pis Praa)",
         Drop: "Mythril Golem (5%)",
@@ -4207,9 +4456,11 @@ const mysticArmor = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Cleric's Robes",
+        SpecialProperties: "",
         Shop: "Balfonheim Port (After obtaining the Treaty-Blade)",
         Treasure: "Ridorana Cataract (Echoes from Time's Garden)",
         Drop: "",
@@ -4219,9 +4470,11 @@ const mysticArmor = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "White Robes",
+        SpecialProperties: "",
         Shop: "",
         Treasure: "Cerobi Steppe (Old Elanise Road) / Pharos - Third Ascent (Spire Ravel - 2nd Flight)",
         Drop: "",
@@ -4231,9 +4484,11 @@ const mysticArmor = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Black Robes",
+        SpecialProperties: "",
         Shop: "",
         Treasure: "Cerobi Steppe (The Terraced Bank) / Necrohol of Nabudis (Cloister of the Highborn)",
         Drop: "",
@@ -4243,9 +4498,11 @@ const mysticArmor = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Glimmering Robes",
+        SpecialProperties: "",
         Shop: "",
         Treasure: "Lhusu Mines (Site 5) / Cerobi Steppe (The Northsward)",
         Drop: "",
@@ -4255,9 +4512,11 @@ const mysticArmor = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Lordly Robes",
+        SpecialProperties: "",
         Shop: "",
         Treasure: "Henne Mines (Special Charter Shaft) / Cerobi Steppe (The Northsward)",
         Drop: "",
@@ -4267,6 +4526,7 @@ const mysticArmor = [
         Sidequest: "Hunt Club",
         Hunt: "",
         Initial: "",
+        Other: ""
     }
 ];
 // #endregion
@@ -4274,25 +4534,25 @@ const mysticArmor = [
 const accessories = [
     {
         Nome: "Bangle",
-        SpecialProperties: "",
-        Shop: "",
-        Treasure: "",
+        SpecialProperties: "Equip: Libra",
+        Shop: "Giza Plains - The Dry / Barheim Passage / Dreadnought Leviathan / Dalmasca Westersand (After Ondore's Estate) / Mosphoran Highwaste (After defeating Judge Bergan) / Necrohol of Nabudis",
+        Treasure: "Dalmasca Estersand (Banks of the Nebra, Broken Sands) / Paramina Rift (Frozen Brook) / Tchita Uplands (Sundered Earth) / Pharos - First Ascent (Wellspring Ravel - 3rd Flight) / Trial Mode Stage 8 & 30 (with Diamond Armlet)",
         Drop: "",
         Steal: "",
         Poach: "",
         Bazaar: "",
-        Sidequest: "",
+        Sidequest: "Pilika's Diary",
         Hunt: "",
-        Initial: "",
+        Initial: "Ashe",
         Other: ""
     },
     {
         Nome: "Berserker Bracers",
-        SpecialProperties: "",
+        SpecialProperties: "Equip: Berserk",
         Shop: "",
-        Treasure: "",
+        Treasure: "Dalmasca Estersand (Broken Sands) / Pharos - First Ascent (They Who Thirst Not) / Pharos - Subterra (Umbra - South) / Trial Mode Stage 64 & 75 (with Diamond Armlet)",
         Drop: "",
-        Steal: "",
+        Steal: "Werewolf (3%) in Trial Mode Stage 5",
         Poach: "",
         Bazaar: "",
         Sidequest: "",
@@ -4302,41 +4562,41 @@ const accessories = [
     },
     {
         Nome: "Ruby Ring",
-        SpecialProperties: "",
+        SpecialProperties: "Equip: Reflect",
         Shop: "",
-        Treasure: "",
+        Treasure: "Stilshrine of Miriam (Walk of Prescience) / Pharos - First Ascent (They Who Thirst Not) / Pharos - Subterra (Abyssal - North) / Trial Mode Stage 78 & 91 (with Diamond Armlet)",
         Drop: "",
-        Steal: "",
+        Steal: "Judge Bergan (10%)",
         Poach: "",
         Bazaar: "",
-        Sidequest: "",
+        Sidequest: "Hunt Club",
         Hunt: "",
         Initial: "",
         Other: ""
     },
     {
         Nome: "Bubble Belt",
-        SpecialProperties: "",
+        SpecialProperties: "Equip: Bubble",
         Shop: "",
-        Treasure: "",
+        Treasure: "Henne Mines (Crossover C) / Feywood (Ice Field of Clearsight) / Pharos - Subterra (Abyssal - North)",
         Drop: "",
-        Steal: "",
+        Steal: "Trickster (3%) in Trial Mode Stage 58",
         Poach: "",
-        Bazaar: "",
-        Sidequest: "",
-        Hunt: "",
+        Bazaar: "Chain-link Belt",
+        Sidequest: "Hunt Club",
+        Hunt: "Antlion Infestation (Antlion)",
         Initial: "",
         Other: ""
     },
     {
         Nome: "Winged Boots",
-        SpecialProperties: "",
-        Shop: "",
-        Treasure: "",
+        SpecialProperties: "Equip: Float",
+        Shop: "Rabanastre Clan Provisioner (High Guardian)",
+        Treasure: "Trial Mode Stage 69 & 88 (with Diamond Armlet)",
         Drop: "",
-        Steal: "",
+        Steal: "Shield Wyrm (Cerobi Steppe - 3%)",
         Poach: "",
-        Bazaar: "",
+        Bazaar: "Feathered Boots",
         Sidequest: "",
         Hunt: "",
         Initial: "",
@@ -4344,13 +4604,13 @@ const accessories = [
     },
     {
         Nome: "Hermes Sandals",
-        SpecialProperties: "",
+        SpecialProperties: "Equip: Haste",
         Shop: "",
-        Treasure: "",
+        Treasure: "Pharos - First Ascent (Wellspring Labyrinth) / Pharos - Subterra (Abyssal - North) / Necrohol of Nabudis (Hall of Effulgent Light) / Trial Mode Stage 90 & 97 (with Diamond Armlet)",
         Drop: "",
-        Steal: "",
+        Steal: "Necrophobe (3%) / Cúchulainn (3%) in Trial Mode Stage 41 / Trickster (10%) in Trial Mode Stage 57",
         Poach: "",
-        Bazaar: "",
+        Bazaar: "Wind Walkers",
         Sidequest: "",
         Hunt: "",
         Initial: "",
@@ -4358,23 +4618,23 @@ const accessories = [
     },
     {
         Nome: "Ring of Renewal",
-        SpecialProperties: "",
+        SpecialProperties: "Equip: Regen",
         Shop: "",
-        Treasure: "",
+        Treasure: "Great Crystal (Uldobi Phullam Udiipraa) / Pharos - Subterra (Penumbra - South)",
         Drop: "",
-        Steal: "",
-        Poach: "",
+        Steal: "Shield Wyrm (3%) in Trial Mode Stage 67",
+        Poach: "Deadly Nightshade (5%)",
         Bazaar: "",
-        Sidequest: "",
+        Sidequest: "Ann and her Sisters",
         Hunt: "",
         Initial: "",
         Other: ""
     },
     {
         Nome: "Orrachea Armlet",
-        SpecialProperties: "",
-        Shop: "",
-        Treasure: "",
+        SpecialProperties: "Slightly raises max HP.",
+        Shop: "Dalmasca Estersand (After receiving the Treaty-Blade)",
+        Treasure: "Dalmasca Westersand (Shimmering Horizons) / Royal Palace of Rabanastre (Lower Halls) / Nalbina Dungeons (The Confiscatory) / Pharos - Subterra (Penumbra - North)",
         Drop: "",
         Steal: "",
         Poach: "",
@@ -4382,17 +4642,17 @@ const accessories = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
-        Other: ""
+        Other: "Rabanastre - Sandsea (Tomaj - after giving Hunt tutorial)"
     },
     {
         Nome: "Blazer Gloves",
-        SpecialProperties: "",
-        Shop: "",
-        Treasure: "",
+        SpecialProperties: "Increases strength when HP is full. (Normal attack damage increased by 50%. Same as the Focus augment.)",
+        Shop: "Jahara / Eruyt Village / Mt Bur-Omisace / Mosphoran Highwaste (After defeating Judge Bergan) / Phon Coast / Balfonheim Port / Necrohol of Nabudis",
+        Treasure: "Phon Coast (Caima Hills) / Tchita Uplands (The Lost Way, Uazcuff Hills) / Pharos - Third Ascent (Spire Ravel - 2nd Flight) / Trial Mode Stage 30 and 62 (with Diamond Armlet)",
         Drop: "",
-        Steal: "",
+        Steal: "Lost Soul (3%) / Overlord (55%) in Trial Mode Stage 72",
         Poach: "",
-        Bazaar: "",
+        Bazaar: "Large Gloves",
         Sidequest: "",
         Hunt: "",
         Initial: "",
@@ -4400,9 +4660,9 @@ const accessories = [
     },
     {
         Nome: "Steel Gorget",
-        SpecialProperties: "",
-        Shop: "",
-        Treasure: "",
+        SpecialProperties: "Increases strength when HP critical. (Normal attack damage doubled. Same as the Adrenaline augment.)",
+        Shop: "Dreadnought Leviathan / Dalmasca Westersand (After Ondore's Estate) / Nam-Yensa Sandsea / Tomb of Raithwall / Jahara / Mosphoran Highwaste (After defeating Judge Bergan) / Phon Coast / Necrohol of Nabudis",
+        Treasure: "Dalmasca Westersand (Corridor of Sand) / Lhusu Mines (Site 2) / Tchita Uplands (Oliphzak Rise) / Trial Mode Stage 10 & 31 (with Diamond Armlet)",
         Drop: "",
         Steal: "",
         Poach: "",
@@ -4414,24 +4674,24 @@ const accessories = [
     },
     {
         Nome: "Magick Gloves",
-        SpecialProperties: "",
-        Shop: "",
-        Treasure: "",
+        SpecialProperties: "Increases magick power when HP is full. (Magickal damage and healing +50%, and the accuracy of offensive status spells is doubled. Same as the Serenity augment.)",
+        Shop: "Jahara / Eruyt Village / Mt Bur-Omisace / Mosphoran Highwaste (After defeating Judge Bergan) / Phon Coast / Balfonheim Port / Necrohol of Nabudis",
+        Treasure: "Phon Coast (The Hakawea Shore) / Tchita Uplands (Uazcuff Hills) / Pharos - First Ascent (Wellspring Labyrinth) / Trial Mode Stage 39 & 83 (with Diamond Armlet)",
         Drop: "",
-        Steal: "",
+        Steal: "Lizard (Paramina Rift - 3%) / Lich (3%) in Trial Mode Stage 9",
         Poach: "",
         Bazaar: "",
-        Sidequest: "",
+        Sidequest: "Patient in the Desert",
         Hunt: "",
         Initial: "",
         Other: ""
     },
     {
         Nome: "Leather Gorget",
-        SpecialProperties: "",
-        Shop: "",
-        Treasure: "",
-        Drop: "",
+        SpecialProperties: "Increases magick power when HP Critical. (Damage is doubled, healing is increased by 50%, and offensive status spells have double the normal accuracy. Same as Spellbreaker augment.)",
+        Shop: "Dreadnought Leviathan / Dalmasca Westersand (After Ondore's Estate) / Nam-Yensa Sandsea / Mosphoran Highwaste (After defeating Judge Bergan) / Necrohol of Nabudis",
+        Treasure: "Giza Plains - The Rains (Gizas South Bank) / Ogir-Yensa Sandsea (Platform 2 - Refinery) / Phon Coast (The Reseta Strand) / Tchita Uplands (Sundered Earth) / Pharos - First Ascent (Wellspring Ravel - 1st Flight) / Trial Mode Stage 19 & 32 (with Diamond Armlet)",
+        Drop: "Bomb (Barheim Passage - 1%)",
         Steal: "",
         Poach: "",
         Bazaar: "",
@@ -4442,39 +4702,39 @@ const accessories = [
     },
     {
         Nome: "Amber Armlet",
-        SpecialProperties: "",
+        SpecialProperties: "Increases physical damage dealt while empty-handed. (Amount increased calculated as [(Strength + Level) / 2]. Same as Brawler augment.)",
         Shop: "",
-        Treasure: "",
+        Treasure: "Golmore Jungle (The Parting Glade) / Giruvegan (Gate of Fire) / Pharos - Subterra (Umbra - North) / Trial Mode Stage 37 (with Diamond Armlet)",
         Drop: "",
-        Steal: "",
+        Steal: "Master Joe (55%) in Trial Mode Stage 66",
         Poach: "",
-        Bazaar: "",
+        Bazaar: "Brawler's Fetish",
         Sidequest: "",
-        Hunt: "",
+        Hunt: "Little Love on the Big Plains (Cluckatrice)",
         Initial: "",
         Other: ""
     },
     {
         Nome: "Sage's Ring",
-        SpecialProperties: "",
+        SpecialProperties: "Reduces MP cost by half.",
         Shop: "",
-        Treasure: "",
+        Treasure: "Henne Mines (Phase 2 Shaft) / Stilshrine of Miriam (Ward of Steel) / Pharos - Subterra (Umbra - South) / Trial Mode Stage 80 & 94 (with Diamond Armlet)",
         Drop: "",
-        Steal: "",
+        Steal: "Arioch (3%) / Chaos (3%) in Trial Mode Stage 84 / Evil Spirit (10%) in Trial Mode Stage 88",
         Poach: "",
         Bazaar: "",
-        Sidequest: "",
+        Sidequest: "Hunt Club",
         Hunt: "",
         Initial: "",
         Other: ""
     },
     {
         Nome: "Agate Ring",
-        SpecialProperties: "",
-        Shop: "",
-        Treasure: "",
+        SpecialProperties: "Equip: Nullifies weather and terrain effects on elemental damage.",
+        Shop: "Eruyt Village / Mt Bur-Omisace / Mosphoran Highwaste (After defeating Judge Bergan) / Phon Coast / Balfonheim Port / Necrohol of Nabudis",
+        Treasure: "Barheim Passage (West Annex) / Tchita Uplands (The Skytrail) / Pharos - Second Ascent (Station of Suffering) / Trial Mode Stage 40 & 84 (with Diamond Armlet)",
         Drop: "",
-        Steal: "",
+        Steal: "Onion Queen (Feywood - 3%) / Lich (10%) in Trial Mode Stage 9",
         Poach: "",
         Bazaar: "",
         Sidequest: "",
@@ -4484,27 +4744,27 @@ const accessories = [
     },
     {
         Nome: "Opal Ring",
-        SpecialProperties: "",
+        SpecialProperties: "Magicks will not bounce off targets with Reflect status.",
         Shop: "",
-        Treasure: "",
+        Treasure: "Pharos - Second Ascent (Station of Banishment) / Pharos - Subterra (Abyssal - North) / Nabreus Deadlands (Lifeless Strand) / Trial Mode Stage 79 & 92 (with Diamond Armlet)",
         Drop: "",
-        Steal: "",
+        Steal: "Grenade (3%)",
         Poach: "",
-        Bazaar: "",
-        Sidequest: "",
+        Bazaar: "Exquisite Ring",
+        Sidequest: "Hunt Club",
         Hunt: "",
         Initial: "",
         Other: ""
     },
     {
         Nome: "Battle Harness",
-        SpecialProperties: "",
-        Shop: "",
-        Treasure: "",
+        SpecialProperties: "When attacked, automatically counter with weapon in hand. (Speed / 2) % activation rate",
+        Shop: "Mosphoran Highwaste (after obtaining the Treaty-Blade)",
+        Treasure: "Barheim Passage (Op Sector 36) / Stilshrine of Miriam (Walk of Sky) / Pharos - Subterra (Penumbra - North) / Trial Mode Stage 79 (with Diamond Armlet)",
         Drop: "",
         Steal: "",
         Poach: "",
-        Bazaar: "",
+        Bazaar: "Back Harness",
         Sidequest: "",
         Hunt: "",
         Initial: "",
@@ -4512,39 +4772,39 @@ const accessories = [
     },
     {
         Nome: "Gauntlets",
-        SpecialProperties: "",
-        Shop: "",
-        Treasure: "",
+        SpecialProperties: "Reduces physical damage when HP critical. (Take half damage in HP Critical. Same as Last Stand augment.)",
+        Shop: "Rabanastre Clan Provisioner (Rear Guard)",
+        Treasure: "Trial Mode Stage 27 & 35 (with Diamond Armlet)",
         Drop: "",
-        Steal: "",
+        Steal: "Ripe Rampager (10%) in Trial Mode Stage 3",
         Poach: "",
         Bazaar: "",
         Sidequest: "",
-        Hunt: "",
+        Hunt: "Waterway Haunting (Wraith)",
         Initial: "",
         Other: ""
     },
     {
         Nome: "Jade Collar",
-        SpecialProperties: "",
+        SpecialProperties: "Improves chances of avoiding attacks. (Enables parrying and increases evasion by 30%)",
         Shop: "",
-        Treasure: "",
+        Treasure: "Garamsythe Waterway (No. 3 Cloaca Spur (Drained)) / Pharos - Subterra (Umbra - South) / Necrohol of Nabudis (Hall of Slumbering Might) / Trial Mode Stage 100 (with Diamond Armlet)",
         Drop: "",
-        Steal: "",
+        Steal: "Hell Wyrm (10%) in Trial Mode Stage 87",
         Poach: "",
         Bazaar: "",
-        Sidequest: "",
+        Sidequest: "Pilika's Diary",
         Hunt: "",
         Initial: "",
         Other: ""
     },
     {
         Nome: "Cameo Belt",
-        SpecialProperties: "",
+        SpecialProperties: "Improves chance to hit. (Normal attacks always hit under normal circumstances)",
         Shop: "",
-        Treasure: "",
-        Drop: "",
-        Steal: "",
+        Treasure: "Barheim Passage (Terminus No. 7 Adjunct) / Pharos - Subterra (Umbra - North) / Trial Mode Stage 100 (with Diamond Armlet)",
+        Drop: "Archaeoaevis (1%)",
+        Steal: "Cúchulainn (55%) in Trial Mode Stage 41",
         Poach: "",
         Bazaar: "",
         Sidequest: "",
@@ -4554,40 +4814,40 @@ const accessories = [
     },
     {
         Nome: "Indigo Pendant",
-        SpecialProperties: "",
+        SpecialProperties: "Improves chance to strike with magicks. (Magicks always hit under normal circumstances)",
         Shop: "",
-        Treasure: "",
-        Drop: "",
-        Steal: "",
+        Treasure: "Lhusu Mines (Site 9) / Pharos - Subterra (Penumbra - North)",
+        Drop: "Suriander (1%) (Level 38-39 only)",
+        Steal: "Mandragora Prince (Feywood - 3%) / Cúchulainn (10%) in Trial Mode Stage 41",
         Poach: "",
         Bazaar: "",
-        Sidequest: "",
+        Sidequest: "Hunt Club",
         Hunt: "",
         Initial: "",
         Other: ""
     },
     {
         Nome: "Genji Gloves",
-        SpecialProperties: "",
+        SpecialProperties: "Improves chance of scoring multiple hits. (Increase chance of combo attacks to [Combo Rate x 1.8]%)",
         Shop: "",
         Treasure: "",
         Drop: "",
-        Steal: "",
+        Steal: "Gilgamesh (First encounter - after switching weapons three times) / Judge Bergan (10%) in Trial Mode Stage 100",
         Poach: "",
         Bazaar: "",
-        Sidequest: "",
+        Sidequest: "Hunt Club",
         Hunt: "",
         Initial: "",
         Other: ""
     },
     {
         Nome: "Argyle Armlet",
-        SpecialProperties: "",
-        Shop: "",
-        Treasure: "",
+        SpecialProperties: "Immune: Blind",
+        Shop: "Barheim Passage / Dreadnought Leviathan / Dalmasca Westersand (After Ondore's Estate) / Nam-Yensa Sandsea / Mosphoran Highwaste (After defeating Judge Bergan) / Necrohol of Nabudis",
+        Treasure: "Dalmasca Estersand (Sand-Swept Naze) / Golmore Jungle (The Greenswathe) / Tchita Uplands (Oliphzak Rise) / Pharos - First Ascent (Wellspring Labyrinth) / Trial Mode Stage 9 & 31 (with Diamond Armlet)",
         Drop: "",
-        Steal: "",
-        Poach: "",
+        Steal: "Avenger (55%) in Trial Mode Stage 72",
+        Poach: "Danbania (5%) / Bull Danbania (5%)",
         Bazaar: "",
         Sidequest: "",
         Hunt: "",
@@ -4596,11 +4856,11 @@ const accessories = [
     },
     {
         Nome: "Tourmaline Ring",
-        SpecialProperties: "",
-        Shop: "",
-        Treasure: "",
+        SpecialProperties: "Immune: Poison, Sap",
+        Shop: "Dreadnought Leviathan / Dalmasca Westersand (After Ondore's Estate) / Nam-Yensa Sandsea / Tomb of Raithwall / Jahara / Mosphoran Highwaste (After defeating Judge Bergan) / Necrohol of Nabudis",
+        Treasure: "Nalbina Dungeons (The Confiscatory) / Ozmone Plain (Haulo Greens) / Stilshrine of Miriam (Walk of Sky) / Pharos - Second Ascent (Station of Suffering) / Trial Mode Stage 18 & 31 (with Diamond Armlet)",
         Drop: "",
-        Steal: "",
+        Steal: "Deathgaze (55%) in Trial Mode Stage 65",
         Poach: "",
         Bazaar: "",
         Sidequest: "",
@@ -4610,25 +4870,25 @@ const accessories = [
     },
     {
         Nome: "Rose Corsage",
-        SpecialProperties: "",
-        Shop: "",
-        Treasure: "",
+        SpecialProperties: "Immune: Silence",
+        Shop: "Dalmasca Westersand (After Ondore's Estate) / Nam-Yensa Sandsea / Tomb of Raithwall / Jahara / Eruyt Village / Mosphoran Highwaste (After defeating Judge Bergan) / Necrohol of Nabudis",
+        Treasure: "Giza Plains - The Rains (Warrior's Wash) / Salikawood (Sun-dappled Path) / Tchita Uplands (Fields of Eternity) / Pharos - Second Ascent (Station of Banishment) / Trial Mode Stage 20 & 35 (with Diamond Armlet)",
         Drop: "",
-        Steal: "",
+        Steal: "Mimic Queen (3%) / Mindflayer (55%) in Trial Mode Stage 17",
         Poach: "",
         Bazaar: "",
         Sidequest: "",
-        Hunt: "",
+        Hunt: "Marauder in the Mines (Nidhogg)",
         Initial: "",
         Other: ""
     },
     {
         Nome: "Black Belt",
-        SpecialProperties: "",
-        Shop: "",
-        Treasure: "",
+        SpecialProperties: "Immune: Immobilize, Disable",
+        Shop: "Dalmasca Westersand (After Ondore's Estate) / Nam-Yensa Sandsea / Tomb of Raithwall / Jahara / Eruyt Village / Mt Bur-Omisace / Mosphoran Highwaste (After defeating Judge Bergan) / Necrohol of Nabudis",
+        Treasure: "Golmore Jungle (The Branchway) / Tchita Uplands (Oliphzak Rise) / Pharos - Second Ascent (Station of Ascension) / Trial Mode Stage 28 & 36 (with Diamond Armlet)",
         Drop: "",
-        Steal: "",
+        Steal: "Vossler (3%) / Topstalk in Trial Mode Stage 27",
         Poach: "",
         Bazaar: "",
         Sidequest: "",
@@ -4638,11 +4898,11 @@ const accessories = [
     },
     {
         Nome: "Nishijin Belt",
-        SpecialProperties: "",
-        Shop: "",
-        Treasure: "",
+        SpecialProperties: "Immune: Sleep",
+        Shop: "Nam-Yensa Sandsea / Tomb of Raithwall / Jahara / Eruyt Village / Mt Bur-Omisace / Mosphoran Highwaste (After defeating Judge Bergan) / Phon Coast / Necrohol of Nabudis",
+        Treasure: "Phon Coast (Pora-Pora Sands) / Tchita Uplands (Fields of Eternity) / Pharos - Third Ascent (Spire Ravel - 1st Flight) / Trial Mode Stage 29 and 62 (with Diamond Armlet)",
         Drop: "",
-        Steal: "",
+        Steal: "Judge Ghis (3%) / Pumpkin Star in Trial Mode Stage 27",
         Poach: "",
         Bazaar: "",
         Sidequest: "",
@@ -4652,25 +4912,25 @@ const accessories = [
     },
     {
         Nome: "Gillie Boots",
-        SpecialProperties: "",
+        SpecialProperties: "Immune: Oil",
         Shop: "",
-        Treasure: "",
+        Treasure: "Mosphoran Highwaste (Trail of Sky-flung Stone) / Ridorana Cataract (City of Other Days) / Pharos - Subterra (Umbra - South)",
         Drop: "",
         Steal: "",
         Poach: "",
-        Bazaar: "",
+        Bazaar: "Ninja Footgear",
         Sidequest: "",
-        Hunt: "",
+        Hunt: "A Chase Through The Woods (Vorpal Bunny)",
         Initial: "",
         Other: ""
     },
     {
         Nome: "Bowline Sash",
-        SpecialProperties: "",
-        Shop: "",
-        Treasure: "",
+        SpecialProperties: "Immune: Confuse",
+        Shop: "Mt Bur-Omisace / Mosphoran Highwaste (After defeating Judge Bergan) / Phon Coast / Balfonheim Port / Necrohol of Nabudis",
+        Treasure: "Barheim Passage (West Annex) / Phon Coast (The Reseta Strand) / Tchita Uplands (The Lost Way) / Pharos - Second Ascent (Station of Banishment) / Nabreus Deadlands (Lifeless Strand) / Trial Mode Stage 48 & 85 (with Diamond Armlet)",
         Drop: "",
-        Steal: "",
+        Steal: "Preying Mantis (3%) / Onion Queen in Trial Mode Stage 27",
         Poach: "",
         Bazaar: "",
         Sidequest: "",
@@ -4680,39 +4940,39 @@ const accessories = [
     },
     {
         Nome: "Fuzzy Miter",
-        SpecialProperties: "",
-        Shop: "",
-        Treasure: "",
+        SpecialProperties: "Immune: Petrify",
+        Shop: "Mt Bur-Omisace (After defeating Vinuskar) / Mosphoran Highwaste (After defeating Judge Bergan) / Phon Coast / Balfonheim Port / Necrohol of Nabudis",
+        Treasure: "Barheim Passage (West Annex) / Tchita Uplands (Realm of the Elder Dream) / Pharos - Second Ascent (Station of Banishment) / Nabreus Deadlands (Lifeless Strand) / Trial Mode Stage 58 & 87 (with Diamond Armlet)",
         Drop: "",
-        Steal: "",
+        Steal: "Brown Chocobo (Salikawood - 3%)",
         Poach: "",
         Bazaar: "",
-        Sidequest: "",
+        Sidequest: "Conversations with Ktjn",
         Hunt: "",
         Initial: "",
         Other: ""
     },
     {
         Nome: "Sash",
-        SpecialProperties: "",
+        SpecialProperties: "Immune: Slow",
         Shop: "",
-        Treasure: "",
+        Treasure: "Giruvegan (The Trimahla Water-Steps) / Pharos - Second Ascent (Station of Ascension) / Pharos - Subterra (Abyssal - North) / Trial Mode Stage 70 & 91 (with Diamond Armlet)",
         Drop: "",
-        Steal: "",
+        Steal: "Mandragora Prince in Trial Mode Stage 27",
         Poach: "",
         Bazaar: "",
         Sidequest: "",
         Hunt: "",
         Initial: "",
-        Other: ""
+        Other: "Salikawood (Boss Moogle - after fixing the gate)"
     },
     {
         Nome: "Power Armlet",
-        SpecialProperties: "",
-        Shop: "",
-        Treasure: "",
-        Drop: "",
-        Steal: "",
+        SpecialProperties: "Immune: Stop",
+        Shop: "Phon Coast / Balfonheim Port / Necrohol of Nabudis",
+        Treasure: "Barheim Passage (West Annex) / Henne Mines (Crossover C) / Tchita Uplands (Fields of Eternity) / Feywood (Ice Field of Clearsight) / Pharos - First Ascent (Wellspring Ravel - 3rd Flight) / Trial Mode Stage 60 & 87 (with Diamond Armlet)",
+        Drop: "Wary Wolf (5%)",
+        Steal: "Mindflayer (10%) in Trial Mode Stage 17 / Diabolos (55%) in Trial Mode Stage 72",
         Poach: "",
         Bazaar: "",
         Sidequest: "",
@@ -4722,9 +4982,9 @@ const accessories = [
     },
     {
         Nome: "Germinas Boots",
-        SpecialProperties: "",
+        SpecialProperties: "Immune: Immobilize",
         Shop: "",
-        Treasure: "",
+        Treasure: "Lhusu Mines (Site 6 South) / Henne Mines (Crossover C) / Pharos - Subterra (Abyssal - North)",
         Drop: "",
         Steal: "",
         Poach: "",
@@ -4736,13 +4996,13 @@ const accessories = [
     },
     {
         Nome: "Quasimodo Boots",
-        SpecialProperties: "",
+        SpecialProperties: "Immune: Sap",
         Shop: "",
-        Treasure: "",
+        Treasure: "Lhusu Mines (Site 5) / Pharos - Second Ascent (Station of Banishment) / Pharos - Subterra (Abyssal - North) / Trial Mode Stage 64 (with Diamond Armlet)",
         Drop: "",
         Steal: "",
         Poach: "",
-        Bazaar: "",
+        Bazaar: "Shoes of the Dead",
         Sidequest: "",
         Hunt: "",
         Initial: "",
@@ -4750,25 +5010,25 @@ const accessories = [
     },
     {
         Nome: "Ribbon",
-        SpecialProperties: "",
+        SpecialProperties: "Immune: All negative status effects (except Instant Death, X-Zone, and Stone). Equip: Regen, Libra.",
         Shop: "",
-        Treasure: "",
-        Drop: "",
-        Steal: "",
+        Treasure: "Henne Mines (Special Charter Shaft) / Pharos - Subterra (Abyssal - North) / Trial Mode Stage 100 (with Diamond Armlet)",
+        Drop: "Lv.99 Red Chocobo (100%) / Vishno (1%)",
+        Steal: "Hashmal (3%) in Trial Mode Stage 49 / Lv.99 Red Chocobo (3%) in Trial Mode Stage 93 / Omega Mark XII (10%) in Trial Mode Stage 99",
         Poach: "",
         Bazaar: "",
-        Sidequest: "",
+        Sidequest: "Hunt Club",
         Hunt: "",
         Initial: "",
         Other: ""
     },
     {
         Nome: "Steel Poleyns",
-        SpecialProperties: "",
-        Shop: "",
-        Treasure: "",
+        SpecialProperties: "Move safely past traps. (Effective against traps triggered by other party members)",
+        Shop: "Rabanastre Clan Provisioner (Headhunter)",
+        Treasure: "Trial Mode Stage 38 and 82 (with Diamond Armlet)",
         Drop: "",
-        Steal: "",
+        Steal: "Worgen (3%), Alpha Worgen (3%)",
         Poach: "",
         Bazaar: "",
         Sidequest: "",
@@ -4778,11 +5038,11 @@ const accessories = [
     },
     {
         Nome: "Diamond Armlet",
-        SpecialProperties: "",
-        Shop: "",
-        Treasure: "",
-        Drop: "",
-        Steal: "",
+        SpecialProperties: "Obtain superior items from chests, coffers, and the like. Most treasures have 5% chance of the rare treasure and 95% of Knot of Rust when Diamond Armlet is equipped, Trial Mode treasures being an exception. (Only effective when equipped on the party leader, or Vaan in towns.)",
+        Shop: "Phon Coast (After obtaining the Treaty-Blade)",
+        Treasure: "Dalmasca Westersand (Windrace Dunes) / Zertinan Caverns (Sandfalls) / Pharos - Subterra (Penumbra - North) / Trial Mode Stage 1",
+        Drop: "Mom Bomb (5%)",
+        Steal: "Dheed (55%) in Trial Mode Stage 67",
         Poach: "",
         Bazaar: "",
         Sidequest: "",
@@ -4792,27 +5052,27 @@ const accessories = [
     },
     {
         Nome: "Thief's Cuffs",
-        SpecialProperties: "",
+        SpecialProperties: "Enables the theft of superior and rare items. (Common = 80%, Uncommon = 30%, Rare = 6%, can steal multiple items at once)",
         Shop: "",
-        Treasure: "",
+        Treasure: "Zertinan Caverns (The Undershore) / Mosphoran Highwaste (Babbling Vale) / Pharos - Subterra (Umbra - North) / Trial Mode Stage 59 (with Diamond Armlet)",
         Drop: "",
-        Steal: "",
+        Steal: "Vinuskar (10%) / Gil Snapper (3%) in Trial Mode Stage 30 / Gavial in Trial Mode Stage 40",
         Poach: "",
         Bazaar: "",
-        Sidequest: "",
+        Sidequest: "Hunt Club",
         Hunt: "",
         Initial: "",
         Other: ""
     },
     {
         Nome: "Pheasant Netsuke",
-        SpecialProperties: "",
+        SpecialProperties: "Improves potency of restorative items such as potions. (Doubles effects on potions, ethers and elemental fangs)",
         Shop: "",
-        Treasure: "",
+        Treasure: "Jahara (The Elderknoll) / Ridorana Cataract (City of Other Days) / Pharos - Subterra (Umbra - South) / Trial Mode Stage 78 (with Diamond Armlet)",
         Drop: "",
-        Steal: "",
+        Steal: "Mu (3%) / Alraune King in Trial Mode Stage 27",
         Poach: "",
-        Bazaar: "",
+        Bazaar: "Wing Cord",
         Sidequest: "",
         Hunt: "",
         Initial: "",
@@ -4820,26 +5080,26 @@ const accessories = [
     },
     {
         Nome: "Nihopalaoa",
-        SpecialProperties: "",
+        SpecialProperties: "Reverses effects of restorative items such as potions. (Potion, Eye Drops, Remedy, Phoenix Down, etc. Affects both allies and enemies)",
         Shop: "",
-        Treasure: "",
+        Treasure: "Henne Mines (Phase 2 Dig) / Pharos - Subterra (Umbra - South)",
         Drop: "",
-        Steal: "",
+        Steal: "Carrot in Trial Mode Stage 70",
         Poach: "",
-        Bazaar: "",
-        Sidequest: "",
+        Bazaar: "Cursed Necklace",
+        Sidequest: "Hunt Club",
         Hunt: "",
         Initial: "",
         Other: ""
     },
     {
         Nome: "Embroidered Tippet",
-        SpecialProperties: "",
+        SpecialProperties: "Doubles EXP earned for the user.",
         Shop: "",
-        Treasure: "",
+        Treasure: "Nam-Yensa Sandsea (Simoon Bluff) / Feywood (Antiquity's End) / Pharos - Subterra (Penumbra - South)",
         Drop: "",
         Steal: "",
-        Poach: "",
+        Poach: "Coeurl (Tchita Uplands - 5%)",
         Bazaar: "",
         Sidequest: "",
         Hunt: "",
@@ -4848,63 +5108,63 @@ const accessories = [
     },
     {
         Nome: "Firefly",
-        SpecialProperties: "",
-        Shop: "",
-        Treasure: "",
-        Drop: "",
+        SpecialProperties: "Reduces EXP earned to 0.",
+        Shop: "Dalmasca Westersand (After obtaining the Treaty-Blade)",
+        Treasure: "Dalmasca Estersand (Outpost) / Zertinan Caverns (Invitation to Heresy) / Pharos - Subterra (Penumbra - North) / Trial Mode Stage 89 & 97 (with Diamond Armlet)",
+        Drop: "Slaven Wilder (5%)",
         Steal: "",
         Poach: "",
-        Bazaar: "",
-        Sidequest: "",
+        Bazaar: "Blush of Light",
+        Sidequest: "Conversations with Ktjn",
         Hunt: "",
         Initial: "",
         Other: ""
     },
     {
         Nome: "Golden Amulet",
-        SpecialProperties: "",
+        SpecialProperties: "Doubles license points earned.",
         Shop: "",
-        Treasure: "",
+        Treasure: "Ogir-Yensa Sandsea (Platform 1 - Refinery) / Feywood (White Magick's Embrace) / Pharos - Subterra (Penumbra - South) / Trial Mode Stage 77 (with Diamond Armlet)",
         Drop: "",
         Steal: "",
         Poach: "",
-        Bazaar: "",
-        Sidequest: "",
-        Hunt: "",
+        Bazaar: "Gilt Phylactery",
+        Sidequest: "Hunt Club / Patient in the Desert",
+        Hunt: "The Defense of Ozmone Plain (Enkelados)",
         Initial: "",
         Other: ""
     },
     {
         Nome: "Cat-ear Hood",
-        SpecialProperties: "",
-        Shop: "",
-        Treasure: "",
-        Drop: "",
-        Steal: "",
-        Poach: "",
-        Bazaar: "",
-        Sidequest: "",
+        SpecialProperties: "Obtained LP becomes gil. (Gil = [LP x character level] x 5), no LP is obtained. Works on reserve party members.",
+        Shop: "Rabanastre Clan Provisioner (Brave Companion)",
+        Treasure: "Trial Mode Stage 86 (with Diamond Armlet)",
+        Drop: "Spee (5%) in Trial Mode Stage 69 / Crypt Bunny (5%) in Stage 70",
+        Steal: "Fury in Trial Mode Stage 63",
+        Poach: "Spee in Trial Mode Stage 69",
+        Bazaar: "Comfy Headgear",
+        Sidequest: "Hunt Club",
         Hunt: "",
         Initial: "",
         Other: ""
     },
     {
         Nome: "Turtleshell Choker",
-        SpecialProperties: "",
+        SpecialProperties: "Enables casting of magicks with gil, rather than MP. (Gil used = 10 x [MP x 1.28])",
         Shop: "",
-        Treasure: "",
+        Treasure: "Nam-Yensa Sandsea (Withering Shores) / Mosphoran Highwaste (Babbling Vale) / Pharos - Subterra (Umbra - North) / Trial Mode Stage 88 & 97 (with Diamond Armlet)",
         Drop: "",
-        Steal: "",
+        Steal: "Emeralditan (3%) / Gil Snapper (55%) in Trial Mode Stage 30",
         Poach: "",
-        Bazaar: "",
-        Sidequest: "",
+        Bazaar: "Shell-worked Collar",
+        Sidequest: "Hunt Club",
         Hunt: "",
         Initial: "",
         Other: ""
     },
     {
         Nome: "Manufacted Nethicite",
-        SpecialProperties: "",
+        SpecialProperties: "Effect: Silence",
         Shop: "",
         Treasure: "",
         Drop: "",
@@ -4914,25 +5174,25 @@ const accessories = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
-        Other: ""
+        Other: "Dreadnought Leviathan (from Larsa). Taken in the Henne Mines."
     },
     {
         Nome: "Goddess's Magicite",
-        SpecialProperties: "",
+        SpecialProperties: "Effect: Reduces MP to 0 and prevents the player's Mist Gauge from rising.",
         Shop: "",
         Treasure: "",
         Drop: "",
-        Steal: "",
+        Steal: "Belias in Trial Mode Stage 10 (3%)",
         Poach: "",
         Bazaar: "",
         Sidequest: "",
         Hunt: "",
         Initial: "",
-        Other: ""
+        Other: "Royal Palace of Rabanastre (Goddess's Statue), lost as part of the story aboard the Dreadnought Leviathan"
     },
     {
         Nome: "Dawn Shard",
-        SpecialProperties: "",
+        SpecialProperties: "Effect: Reduces MP to 0 and prevents the player's Mist Gauge from rising.",
         Shop: "",
         Treasure: "",
         Drop: "",
@@ -4942,6 +5202,6 @@ const accessories = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
-        Other: ""
+        Other: "Gain at Tomb of Raithwall (Chamber of First Light), lose at the top of Pharos"
     }
 ];
