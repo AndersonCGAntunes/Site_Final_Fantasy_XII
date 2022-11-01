@@ -2653,7 +2653,7 @@ const shields = [
     },
     {
         Nome: "Ice Shield",
-        SpecialProperties: "",
+        SpecialProperties: "Half: Ice",
         Shop: "Jahara / Mt Bur-Omisace",
         Treasure: "Tomb of Raithwall (Southfall Passage) / Paramina Rift (Karydine Glacier) / Stilshrine of Miriam (Walk of Mind) / Trial Mode Stage 57 (with Diamond Armlet)",
         Drop: "Redmaw (Henne Mines - 1%; Stilshrine of Miriam - 5%)",
@@ -2705,7 +2705,7 @@ const shields = [
     },
     {
         Nome: "Dragon Shield",
-        SpecialProperties: "",
+        SpecialProperties: "Immune: Earth",
         Shop: "Mosphoran Highwaste (After defeating Judge Bergan) / Phon Coast",
         Treasure: "Dalmasca Estersand (Broken Sands) / Mosphoran Highwaste (Northern Skirts) / Phon Coast (The Hakawea Shore) / Tchita Uplands (Sundered Earth) / Trial Mode Stage 97 (with Diamond Armlet)",
         Drop: "",
@@ -2770,7 +2770,7 @@ const shields = [
     },
     {
         Nome: "Demon Shield",
-        SpecialProperties: "",
+        SpecialProperties: "Absorb: Dark",
         Shop: "",
         Treasure: "Cerobi Steppe (Crossfield) / Pharos - First Ascent (Wellspring Ravel - 1st Flight)",
         Drop: "Abysteel (Henne Mines - 1%)",
@@ -2783,7 +2783,7 @@ const shields = [
     },
     {
         Nome: "Venetian Shield",
-        SpecialProperties: "",
+        SpecialProperties: "Weak: Lightning",
         Shop: "",
         Treasure: "Cerobi Steppe (The Northsward)",
         Drop: "",
@@ -2796,7 +2796,7 @@ const shields = [
     },
     {
         Nome: "Zodiac Escutcheon",
-        SpecialProperties: "",
+        SpecialProperties: "Immune: Lightning",
         Shop: "",
         Treasure: "Sochen Cave Palace (Hall of the Wroth God)",
         Drop: "",
@@ -2809,7 +2809,7 @@ const shields = [
     },
     {
         Nome: "Ensanguined Shield",
-        SpecialProperties: "",
+        SpecialProperties: "Equip: Poison, Sap, and Slow",
         Shop: "",
         Treasure: "Necrohol of Nabudis (Cloister of the Highborn)",
         Drop: "",
@@ -2822,7 +2822,7 @@ const shields = [
     },
     {
         Nome: "Gendarme",
-        SpecialProperties: "",
+        SpecialProperties: "Invisible",
         Shop: "",
         Treasure: "Great Crystal (Crystal Peak)",
         Drop: "",

@@ -136,6 +136,7 @@ window.addEventListener("DOMContentLoaded", function() {
         `;
     }
     
+    // #region Adição dos marcadores
     let texto = document.querySelectorAll('.marcador');
 
     texto.forEach(element => {
@@ -149,5 +150,6 @@ window.addEventListener("DOMContentLoaded", function() {
             }
         });
     });
+    // #endregion
 
 });
