@@ -15,78 +15,83 @@ const novaBow = document.querySelector("#novaBow");
 const novaCrossbow = document.querySelector("#novaCrossbow");
 const novaGun = document.querySelector("#novaGun");
 const novaHandBomb = document.querySelector("#novaHandBomb");
+const novaShield = document.querySelector("#novaShield");
+const novaLightArmor = document.querySelector("#lightArmor");
+const novaHeavyArmor = document.querySelector("#heavyArmor");
+const novaMysticArmor = document.querySelector("#mysticArmor");
 
 window.addEventListener("DOMContentLoaded", function() {
-    let identificador = 0;// cria os IDs das weapons
-    
+    // #region Declaração das displayWeapons
     let displaySwords = swords.map((item) => {
-        return apresentaListas(item);
+        return apresentaItem(item, "weapons");
     });
 
     let displayDaggers = daggers.map((item) => {
-        return apresentaListas(item);
+        return apresentaItem(item, "weapons");
     });
 
     let displayAxes = axes.map((item) => {
-        return apresentaListas(item);
+        return apresentaItem(item, "weapons");
     });
 
     let displayHammers = hammers.map((item) => {
-        return apresentaListas(item);
+        return apresentaItem(item, "weapons");
     });
 
     let displayMaces = maces.map((item) => {
-        return apresentaListas(item);
+        return apresentaItem(item, "weapons");
     });
 
     let displayMeasures = measures.map((item) => {
-        return apresentaListas(item);
+        return apresentaItem(item, "weapons");
     });
 
     let displayGreatswords = greatswords.map((item) => {
-        return apresentaListas(item);
+        return apresentaItem(item, "weapons");
     });
 
     let displayKatanas = katanas.map((item) => {
-        return apresentaListas(item);
+        return apresentaItem(item, "weapons");
     });
 
     let displayNinjaSwords = ninjaSwords.map((item) => {
-        return apresentaListas(item);
+        return apresentaItem(item, "weapons");
     });
 
     let displaySpears = spears.map((item) => {
-        return apresentaListas(item);
+        return apresentaItem(item, "weapons");
     });
 
     let displayPoles = poles.map((item) => {
-        return apresentaListas(item);
+        return apresentaItem(item, "weapons");
     });
 
     let displayRods = rods.map((item) => {
-        return apresentaListas(item);
+        return apresentaItem(item, "weapons");
     });
 
     let displayStaves = staves.map((item) => {
-        return apresentaListas(item);
+        return apresentaItem(item, "weapons");
     });
 
     let displayBows = bows.map((item) => {
-        return apresentaListas(item);
+        return apresentaItem(item, "weapons");
     });
 
     let displayCrossbows = crossbows.map((item) => {
-        return apresentaListas(item);
+        return apresentaItem(item, "weapons");
     });
 
     let displayGuns = guns.map((item) => {
-        return apresentaListas(item);
+        return apresentaItem(item, "weapons");
     });
 
     let displayHandBombs = handBombs.map((item) => {
-        return apresentaListas(item);
+        return apresentaItem(item, "weapons");
     });
+    // #endregion
 
+    // #region Display Weapons
     displaySwords = displaySwords.join("");
     displayDaggers = displayDaggers.join("");
     displayAxes = displayAxes.join("");
@@ -104,7 +109,9 @@ window.addEventListener("DOMContentLoaded", function() {
     displayCrossbows = displayCrossbows.join("");
     displayGuns = displayGuns.join("");
     displayHandBombs = displayHandBombs.join("");
+    // #endregion
 
+    // #region InnerHTML Weapons
     novaSword.innerHTML = displaySwords;
     novaDagger.innerHTML = displayDaggers;
     novaAxe.innerHTML = displayAxes;
@@ -122,15 +129,64 @@ window.addEventListener("DOMContentLoaded", function() {
     novaCrossbow.innerHTML = displayCrossbows;
     novaGun.innerHTML = displayGuns;
     novaHandBomb.innerHTML = displayHandBombs;
+    // #endregion
 
-    function apresentaListas(item) {
+    let displayShields = shields.map((item) => {
+        return apresentaItem(item, "armors");
+    });
+
+    let displayLightArmors = lightArmor.map((item) => {
+        return apresentaItem(item, "armors");
+    });
+
+    let displayHeavyArmors = heavyArmor.map((item) => {
+        return apresentaItem(item, "armors");
+    });
+
+    let displayMysticArmors = mysticArmor.map((item) => {
+        return apresentaItem(item, "armors");
+    });
+
+    displayShields = displayShields.join("");
+    displayLightArmors = displayLightArmors.join("");
+    displayHeavyArmors = displayHeavyArmors.join("");
+    displayMysticArmors = displayMysticArmors.join("");
+
+    novaShield.innerHTML = displayShields;
+    novaLightArmor.innerHTML = displayLightArmors;
+    novaHeavyArmor.innerHTML = displayHeavyArmors;
+    novaMysticArmor.innerHTML = displayMysticArmors;
+
+    function apresentaItem(item, tipoItem) {
         lista = "";
         contador = 0;
         identificador++;
 
+        console.log(`Nome: ${item.Nome} | Identificador: ${identificador}`);
+
+        if (identificador == 201 || identificador == 243 || identificador == 279) {
+            return `
+            <h4>Head</h4>
+            <li class="nomeDasWeapons">
+                <a href="${tipoItem}.html#identificador${identificador}">${item.Nome}</a><span class="marcador"><input type="checkbox" class="caixa">Obtido</span>
+            </li>
+            <hr>
+            `;
+        }
+
+        if (identificador == 222 || identificador == 261 || identificador == 300) {
+            return `
+            <h4>Body</h4>
+            <li class="nomeDasWeapons">
+                <a href="${tipoItem}.html#identificador${identificador}">${item.Nome}</a><span class="marcador"><input type="checkbox" class="caixa">Obtido</span>
+            </li>
+            <hr>
+            `;
+        }
+
         return `
         <li class="nomeDasWeapons">
-            <a href="weapons.html#identificador${identificador}">${item.Nome}</a><span class="marcador"><input type="checkbox" class="caixa">Obtido</span>
+            <a href="${tipoItem}.html#identificador${identificador}">${item.Nome}</a><span class="marcador"><input type="checkbox" class="caixa">Obtido</span>
         </li>
         <hr>
         `;

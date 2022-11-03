@@ -24,7 +24,7 @@ window.addEventListener("DOMContentLoaded", function() {
     let lista = "";
     let contador = 0;
     let contaBazaar = 0;
-    let identificador = 0;// cria um id para cada weapon em sequencia
+    //identificador = 0;// cria um id para cada weapon em sequencia
 
     // #region variáveis
     let displaySwords = swords.map((item) => {

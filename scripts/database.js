@@ -1,3 +1,5 @@
+let identificador = 0;
+
 // #region Weapons
 const swords = [
     {
@@ -2585,6 +2587,7 @@ const shields = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Buckler",
@@ -2597,7 +2600,8 @@ const shields = [
         Bazaar: "Gilt Shield",
         Sidequest: "",
         Hunt: "",
-        Initial: "Ashe, and Reks and Basch in the prologue",
+        Initial: "Ashe, Reks and Basch in the prologue",
+        Other: ""
     },
     {
         Nome: "Bronze Shield",
@@ -2611,6 +2615,7 @@ const shields = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Round Shield",
@@ -2624,6 +2629,7 @@ const shields = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Shell Shield",
@@ -2637,6 +2643,7 @@ const shields = [
         Sidequest: "",
         Hunt: "A Scream from the Sky (Wyvern Lord)",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Golden Shield",
@@ -2650,6 +2657,7 @@ const shields = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Ice Shield",
@@ -2663,6 +2671,7 @@ const shields = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Flame Shield",
@@ -2676,6 +2685,7 @@ const shields = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Diamond Shield",
@@ -2689,6 +2699,7 @@ const shields = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Platinum Shield",
@@ -2702,6 +2713,7 @@ const shields = [
         Sidequest: "",
         Hunt: "Trouble in the Hills (Atomos)",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Dragon Shield",
@@ -2715,6 +2727,7 @@ const shields = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Crystal Shield",
@@ -2728,6 +2741,7 @@ const shields = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Genji Shield",
@@ -2741,6 +2755,7 @@ const shields = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Kaiser Shield",
@@ -2754,6 +2769,7 @@ const shields = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Aegis Shield",
@@ -2767,6 +2783,7 @@ const shields = [
         Sidequest: "Hunt Club",
         Hunt: "Get My Stuff Back! (Vyraal)",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Demon Shield",
@@ -2780,6 +2797,7 @@ const shields = [
         Sidequest: "",
         Hunt: "The Child Snatcher (Diabolos)",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Venetian Shield",
@@ -2793,6 +2811,7 @@ const shields = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Zodiac Escutcheon",
@@ -2806,6 +2825,7 @@ const shields = [
         Sidequest: "Hunt Club",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Ensanguined Shield",
@@ -2819,6 +2839,7 @@ const shields = [
         Sidequest: "Hunt Club",
         Hunt: "",
         Initial: "",
+        Other: ""
     },
     {
         Nome: "Gendarme",
@@ -2832,6 +2853,7 @@ const shields = [
         Sidequest: "",
         Hunt: "",
         Initial: "",
+        Other: ""
     }
 ];
 
