@@ -2633,7 +2633,7 @@ const shields = [
     },
     {
         Nome: "Shell Shield",
-        SpecialProperties: "",
+        SpecialProperties: "Equip: Shell",
         Shop: "",
         Treasure: "Stilshrine of Miriam (Cold Distance) / Cerobi Steppe (The Northsward)",
         Drop: "",
@@ -3015,7 +3015,7 @@ const lightArmor = [
     },
     {
         Nome: "Goggle Mask",
-        SpecialProperties: "",
+        SpecialProperties: "Immune: Blind",
         Shop: "Mosphoran Highwaste (After defeating Judge Bergan) / Phon Coast",
         Treasure: "Tchita Uplands (Uazcuff Hills) / Trial Mode Stage 91 (with Diamond Armlet)",
         Drop: "Dragon Aevis (1%)",
@@ -3127,7 +3127,7 @@ const lightArmor = [
     },
     {
         Nome: "Renewing Morion",
-        SpecialProperties: "",
+        SpecialProperties: "Equip: Regen",
         Shop: "",
         Treasure: "Lhusu Mines (Site 11) / Cerobi Steppe (Crossfield)",
         Drop: "Nightwalker (5%)",
@@ -3436,7 +3436,7 @@ const lightArmor = [
     },
     {
         Nome: "Brave Suit",
-        SpecialProperties: "",
+        SpecialProperties: "Equip: Bravery",
         Shop: "",
         Treasure: "Henne Mines (Special Charter Shaft) / Cerobi Steppe (Feddik River)",
         Drop: "",
@@ -3664,7 +3664,7 @@ const heavyArmor = [
     },
     {
         Nome: "Genji Helm",
-        SpecialProperties: "",
+        SpecialProperties: "Equip: Counter against normal attacks ([Speed/2]% activation rate)",
         Shop: "",
         Treasure: "",
         Drop: "",
@@ -3805,7 +3805,7 @@ const heavyArmor = [
     },
     {
         Nome: "Shielded Armor",
-        SpecialProperties: "",
+        SpecialProperties: "Equip: Protect",
         Shop: "Eruyt Village / Mt Bur-Omisace",
         Treasure: "Henne Mines (Starboard Section) / Paramina Rift (Freezing Gorge) / Trial Mode Stage 67 (with Diamond Armlet)",
         Drop: "",
@@ -3861,7 +3861,7 @@ const heavyArmor = [
     },
     {
         Nome: "Mirror Mail",
-        SpecialProperties: "",
+        SpecialProperties: "Equip: Reflect",
         Shop: "Phon Coast / Archades",
         Treasure: "Phon Coast (Caima Hills) / Tchita Uplands (Sundered Earth)",
         Drop: "Mirrorknight (3%)",
@@ -3917,7 +3917,7 @@ const heavyArmor = [
     },
     {
         Nome: "Genji Armor",
-        SpecialProperties: "",
+        SpecialProperties: "Equip: Improves chance to Counter (Genji Helm or Battle Harness [Speed/2]% counter activation rate, becomes [Speed*2]%)",
         Shop: "",
         Treasure: "",
         Drop: "",
