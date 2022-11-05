@@ -20,6 +20,11 @@ const novaLightArmor = document.querySelector("#lightArmor");
 const novaHeavyArmor = document.querySelector("#heavyArmor");
 const novaMysticArmor = document.querySelector("#mysticArmor");
 
+const identificadores = document.getElementById("submenu");
+let ids = [];
+let nomes = ["Swords", "Daggers", "Axes", "Hammers", "Maces", "Measures", "Greatswords", "Katana", "Ninja-swords", "Spears", "Poles", "Rods", "Staves", "Bows", "Crossbows", "Guns", "Hand-bombs", "Shields", "Light-armor", "Heavy-armor", "Mystic-armor"];
+let nomeEquipamento = "";
+
 window.addEventListener("DOMContentLoaded", function() {
     // #region Declaração das displayWeapons
     let displaySwords = swords.map((item) => {
@@ -147,6 +152,18 @@ window.addEventListener("DOMContentLoaded", function() {
         return apresentaItem(item, "armors");
     });
 
+    for (let i = 0; i < 320; i++) {
+        ids.push(`#identifica${i + 1}`);
+    }
+
+    let displayLinks = nomes.map((item) => {
+        nomeEquipamento = item;
+        return mostraLinks(item, nomeEquipamento);
+    });
+
+    displayLinks = displayLinks.join("");
+    identificadores.innerHTML = displayLinks;
+
     displayShields = displayShields.join("");
     displayLightArmors = displayLightArmors.join("");
     displayHeavyArmors = displayHeavyArmors.join("");
@@ -161,13 +178,14 @@ window.addEventListener("DOMContentLoaded", function() {
         lista = "";
         contador = 0;
         identificador++;
+        idProprio++;
 
         console.log(`Nome: ${item.Nome} | Identificador: ${identificador}`);
 
         if (identificador == 201 || identificador == 243 || identificador == 279) {
             return `
             <h4>Head</h4>
-            <li class="nomeDasWeapons">
+            <li id="identifica${idProprio}" class="nomeDasWeapons">
                 <a href="${tipoItem}.html#identificador${identificador}">${item.Nome}</a><span class="marcador"><input type="checkbox" class="caixa">Obtido</span>
             </li>
             <hr>
@@ -177,7 +195,7 @@ window.addEventListener("DOMContentLoaded", function() {
         if (identificador == 222 || identificador == 261 || identificador == 300) {
             return `
             <h4>Body</h4>
-            <li class="nomeDasWeapons">
+            <li id="identifica${idProprio}" class="nomeDasWeapons">
                 <a href="${tipoItem}.html#identificador${identificador}">${item.Nome}</a><span class="marcador"><input type="checkbox" class="caixa">Obtido</span>
             </li>
             <hr>
@@ -185,7 +203,7 @@ window.addEventListener("DOMContentLoaded", function() {
         }
 
         return `
-        <li class="nomeDasWeapons">
+        <li id="identifica${idProprio}" class="nomeDasWeapons">
             <a href="${tipoItem}.html#identificador${identificador}">${item.Nome}</a><span class="marcador"><input type="checkbox" class="caixa">Obtido</span>
         </li>
         <hr>
@@ -208,4 +226,9 @@ window.addEventListener("DOMContentLoaded", function() {
     });
     // #endregion
 
+    function mostraLinks(elo, equipamento) {
+        return `
+            <a href="index.html#${elo}">${equipamento}</a>
+        `;
+    }
 });
