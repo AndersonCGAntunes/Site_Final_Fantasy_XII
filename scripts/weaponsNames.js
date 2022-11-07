@@ -186,7 +186,7 @@ window.addEventListener("DOMContentLoaded", function() {
             return `
             <h4>Head</h4>
             <li id="identifica${idProprio}" class="nomeDasWeapons">
-                <a href="${tipoItem}.html#identificador${identificador}">${item.Nome}</a><span class="marcador"><input type="checkbox" class="caixa">Obtido</span>
+                <a href="paginas/${tipoItem}.html#identificador${identificador}">${item.Nome}</a><span class="marcador"><input type="checkbox" class="caixa">Obtido</span>
             </li>
             <hr>
             `;
@@ -196,7 +196,7 @@ window.addEventListener("DOMContentLoaded", function() {
             return `
             <h4>Body</h4>
             <li id="identifica${idProprio}" class="nomeDasWeapons">
-                <a href="${tipoItem}.html#identificador${identificador}">${item.Nome}</a><span class="marcador"><input type="checkbox" class="caixa">Obtido</span>
+                <a href="paginas/${tipoItem}.html#identificador${identificador}">${item.Nome}</a><span class="marcador"><input type="checkbox" class="caixa">Obtido</span>
             </li>
             <hr>
             `;
@@ -204,7 +204,7 @@ window.addEventListener("DOMContentLoaded", function() {
 
         return `
         <li id="identifica${idProprio}" class="nomeDasWeapons">
-            <a href="${tipoItem}.html#identificador${identificador}">${item.Nome}</a><span class="marcador"><input type="checkbox" class="caixa">Obtido</span>
+            <a href="paginas/${tipoItem}.html#identificador${identificador}">${item.Nome}</a><span class="marcador"><input type="checkbox" class="caixa">Obtido</span>
         </li>
         <hr>
         `;
