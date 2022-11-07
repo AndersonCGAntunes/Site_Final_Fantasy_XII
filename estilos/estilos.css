@@ -23,8 +23,9 @@ main {
     color: black;
 }
 
-#espaco {
-    height: 250px;
+#imagem {
+    width: 600px;
+    margin: 0 auto;
 }
 
 .nomeDoJogo {
@@ -63,7 +64,7 @@ p, .descricao, td, th, .legenda {
     line-height: 20px;
 }
 
-img {
+.iconeHome {
     background-color: #3a3a3a;
     position: fixed;
     float: right;
@@ -92,8 +93,10 @@ a:visited, .legenda {
     color: rgb(56, 161, 211);
 }
 
-.lSubmenu {
+.lSubmenu, .legenda {
     background-color: crimson;
+    color: white;
+    border-radius: 3px;
 }
 
 a:hover {
